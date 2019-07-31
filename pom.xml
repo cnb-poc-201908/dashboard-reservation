@@ -24,7 +24,6 @@
 		<commons-io.version>2.4</commons-io.version>
 		<commons-collections.version>3.2.2</commons-collections.version>
 		<commons-beanutils.version>1.9.3</commons-beanutils.version>
-		<fastjson.version>1.1.26</fastjson.version>
 		<org.codehaus.jackson.version>1.9.13</org.codehaus.jackson.version>
 		<fasterxml.uuid.version>3.1.4</fasterxml.uuid.version>
 		<docker.image.prefix>registry.cn-beijing.aliyuncs.com/bmwpoc</docker.image.prefix>
@@ -133,13 +132,6 @@
 			<groupId>net.logstash.logback</groupId>
 			<artifactId>logstash-logback-encoder</artifactId>
 			<version>5.1</version>
-		</dependency>
-		
-		<!-- fastJson框架 -->
-		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>fastjson</artifactId>
-			<version>${fastjson.version}</version>
 		</dependency>
 
 		<!--对json格式的支持 -->
