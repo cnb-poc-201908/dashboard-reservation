@@ -7,7 +7,7 @@ spring:
   application:
     name: dashboard-reservation
 server:
-  port: 2100
+  port: 20002
   
 # 服务管理配置
 management:
@@ -51,7 +51,7 @@ spring:
   application:
     name: dashboard-reservation
 server:
-  port: 2100
+  port: 20002
 
 # 服务管理配置
 management:
