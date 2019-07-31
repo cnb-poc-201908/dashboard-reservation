@@ -1,5 +1,5 @@
 # Start with a base image containing Java runtime
-FROM hub.c.163.com/library/openjdk:8
+FROM registry.cn-beijing.aliyuncs.com/bmwpoc/jdk8
 
 # Add Maintainer Info
 MAINTAINER Xiong Liang <liangx8892@163.com>
