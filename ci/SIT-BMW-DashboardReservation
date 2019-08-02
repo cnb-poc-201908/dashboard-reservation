@@ -50,7 +50,7 @@ def customImage
 
 	//################# E2E Test(Selenium) PART ###################################
 	   stage("Start Auto Test"){
-       sleep 120 //Wait several seconds to ensure deploy successfully
+       sleep 30 //Wait several seconds to ensure deploy successfully
 	   checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: GIT_CRED, url: E2E_GIT_URL]]])
 	   sh "cd selenium && chmod +x mvnw && ./mvnw clean install"
     }      
