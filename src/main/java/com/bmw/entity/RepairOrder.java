@@ -6,6 +6,8 @@ import java.util.Map;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;
 
+import com.bmw.common.BMWPocConstants;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class RepairOrder {
 	private String repairOrderId;
@@ -52,7 +54,7 @@ public class RepairOrder {
 		this.vehicleEngineNumber = vIdentification.get("engineNumber");
 
 		Map<String,Object> mileage = (Map<String,Object>)vehicle.get("mileage");
-		this.vehicleMileage = (Integer)mileage.get("value");
+		this.vehicleMileage = (Integer)mileage.get(BMWPocConstants.KEY_NAME_VALUE);
 	}
 
 	@JsonProperty("details")
@@ -63,8 +65,8 @@ public class RepairOrder {
 		this.onHoldReason = (String)details.get("onHoldReason");
 		Map<String,Object> checkinMap = (Map<String,Object>)details.get("checkInMileage");
 		Map<String,Object> checkoutMap = (Map<String,Object>)details.get("checkOutMileage");
-		this.checkInMileage = (Integer)checkinMap.get("value");
-		this.checkOutMileage = (Integer)checkoutMap.get("value");
+		this.checkInMileage = (Integer)checkinMap.get(BMWPocConstants.KEY_NAME_VALUE);
+		this.checkOutMileage = (Integer)checkoutMap.get(BMWPocConstants.KEY_NAME_VALUE);
 	}
 
 	@JsonProperty("customer")
