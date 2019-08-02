@@ -2,7 +2,6 @@
 node {   
 // '##################Creditial SETUP########################'
 def GIT_URL = 'git@github.com:bmw-poc/dashboard-reservation.git'
-def E2E_GIT_URL = 'git@github.com:bmw-poc/test_selenium.git'
 def GIT_CRED = 'gitcom-user-bchen'
 
 def SONAR_CRED = 'sonar-token'
@@ -17,6 +16,11 @@ String IMAGE_NAME="${PRODUCT_NAME}"
 def UAT_PASS_IMAGE_NAME = IMAGE_NAME.replace("pro-", "uat-")
 String IMAGE_TAG=env.BUILD_NUMBER
 
+//################# CI PART ###################################
+
+    stage('Setup Environment') {
+        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: GIT_CRED, url: GIT_URL]]])
+    }
 
     //################# Tag Image from UAT Pass ###################################
        stage("Build image and Deploy to Env "){
