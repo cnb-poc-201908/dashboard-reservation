@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: uat-bmw-dashboardreservation
+  namespace: uat
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: uat-bmw-dashboardreservation
+    spec:
+      containers:
+        - name: uat-bmw-dashboardreservation
+          image: registry.cn-beijing.aliyuncs.com/bmwpoc/uat-bmw-dashboardreservation:{version}
+          ports:
+            - name: http-port
+              containerPort: 8080
+      imagePullSecrets:
+        - name: bmwpoc
