@@ -44,8 +44,8 @@ def customImage
               customImage = docker.build(DOCKER_REPO + "/" + IMAGE_NAME)    
               customImage.push(IMAGE_TAG)
             }
-	   sh "sed -i 's/{version}/" + IMAGE_TAG + "/g' ./ci/UAT-BMW-DashboardReservation.yaml"
-	   sh "kubectl apply -f ./ci/UAT-BMW-DashboardReservation.yaml"
+	   sh "sed -i 's/{version}/" + IMAGE_TAG + "/g' ./ci/${env.JOB_NAME}.yaml"
+	   sh "kubectl apply -f ./ci/${env.JOB_NAME}.yaml"
     }      
 
 	//################# E2E Test(Selenium) PART ###################################
