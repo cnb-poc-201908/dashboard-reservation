@@ -24,12 +24,12 @@
             <charset>utf8</charset>
         </encoder>
     </appender>
-
+    
     <!-- 为logstash输出的JSON格式的Appender -->
     <appender name="logstash"
               class="net.logstash.logback.appender.LogstashTcpSocketAppender">
         <!-- logstash IP，如果是集群，用逗号分隔 -->
-        <destination>xxxx.xxx.xxx:xxx</destination>
+        <destination>112.126.99.2:30500</destination>
         <!-- 日志输出编码 -->
         <encoder
                 class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
@@ -57,8 +57,8 @@
     </appender>
 
     <!-- 日志输出级别 -->
-    <root level="DEBUG">
+    <root level="INFO">
         <appender-ref ref="console" />
-        <appender-ref ref="logstash" />
+        <!-- appender-ref ref="logstash" /-->
     </root>
 </configuration>

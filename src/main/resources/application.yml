@@ -7,7 +7,16 @@ spring:
   application:
     name: dashboard-reservation
 server:
-  port: 2100
+  port: 20002
+security:
+  oauth2:
+    client:
+      grantType: client_credentials
+      clientId: "Di7hBWKdZbATm4EAqAghniLQz1MGvjdS"
+      clientSecret: "9LJWr8ztDW9jkW2C"
+      accessTokenUri: https://stageidp.apigw.cdkapps.cn/auth/token
+      scope: showroom
+      
   
 # 服务管理配置
 management:
@@ -51,7 +60,7 @@ spring:
   application:
     name: dashboard-reservation
 server:
-  port: 2100
+  port: 20002
 
 # 服务管理配置
 management:
