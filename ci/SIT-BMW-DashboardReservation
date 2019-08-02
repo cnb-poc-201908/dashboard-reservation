@@ -52,7 +52,7 @@ def customImage
 	   stage("Start Auto Test"){
        sleep 120 //Wait several seconds to ensure deploy successfully
 	   checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: GIT_CRED, url: E2E_GIT_URL]]])
-	   sh "cd selenium && ./mvnw clean install"
+	   sh "cd selenium && chmod +x mvnw && ./mvnw clean install"
     }      
 
 	//################# Tag Image for UAT Env ###################################
