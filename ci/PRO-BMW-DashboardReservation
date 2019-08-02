@@ -37,7 +37,9 @@ String IMAGE_TAG=env.BUILD_NUMBER
 	//################# Tag Image for PRO Env ###################################
 	   stage("Complete The pipeline"){
        docker.withRegistry(DOCKER_REG,DOCKER_REG_KEY){
+			  sh "docker tag ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG} ${DOCKER_REPO}/${IMAGE_NAME}:pass"
               sh "docker push ${DOCKER_REPO}/${IMAGE_NAME}:pass"
+			  sh "docker tag ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG} ${DOCKER_REPO}/${IMAGE_NAME}:latest"
 			  sh "docker push ${DOCKER_REPO}/${IMAGE_NAME}:latest"
             }
     } 
