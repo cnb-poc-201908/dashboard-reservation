@@ -16,7 +16,6 @@ security:
       clientSecret: "9LJWr8ztDW9jkW2C"
       accessTokenUri: https://stageidp.apigw.cdkapps.cn/auth/token
       scope: showroom
-      
   
 # 服务管理配置
 management:

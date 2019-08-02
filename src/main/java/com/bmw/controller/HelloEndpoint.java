@@ -20,6 +20,7 @@ public class HelloEndpoint {
     @GetMapping("/hello")
     public String hello() {
     	logger.info("/hello, instanceId:{}, host:{}" , eurekaInstanceConfig.getInstanceId() , eurekaInstanceConfig.getHostName(false));
+    	logger.debug("/hello, instanceId:{}, host:{}" , eurekaInstanceConfig.getInstanceId() , eurekaInstanceConfig.getHostName(false));
         return "Hello, Spring Cloud! My port is " + serverPort;
     }
 }
