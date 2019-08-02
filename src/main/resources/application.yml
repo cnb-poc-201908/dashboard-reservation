@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: local
+    active: k8s
 ---
 spring:
   profiles: local
@@ -16,6 +16,10 @@ security:
       clientSecret: "9LJWr8ztDW9jkW2C"
       accessTokenUri: https://stageidp.apigw.cdkapps.cn/auth/token
       scope: showroom
+api:
+  gatewayUri: https://stage.apigw.cdkapps.cn/service/MBOBI/987501
+  endpoints:
+    repairOrders: /repair-orders
   
 # 服务管理配置
 management:
