@@ -11,7 +11,7 @@ String DOCKER_REPO="registry.cn-beijing.aliyuncs.com/bmwpoc"
 String DOCKER_REG="https://" + DOCKER_REPO + "/"
 String DOCKER_REG_KEY = "9643e3f4-6725-4294-a8ca-94a156195e8f"
 
-def PRODUCT_NAME=toLowerCase(env.JOB_NAME)
+def PRODUCT_NAME=String.toLowerCase(env.JOB_NAME)
 
 String IMAGE_NAME="${PRODUCT_NAME}"
 String IMAGE_TAG=env.BUILD_NUMBER
