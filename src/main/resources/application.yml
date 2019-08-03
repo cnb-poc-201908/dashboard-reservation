@@ -94,3 +94,16 @@ eureka:
     prefer-ip-address: true
     instance-id: ${spring.application.name}:${server.port}
   environment: sit
+
+security:
+  oauth2:
+    client:
+      grantType: client_credentials
+      clientId: "Di7hBWKdZbATm4EAqAghniLQz1MGvjdS"
+      clientSecret: "9LJWr8ztDW9jkW2C"
+      accessTokenUri: https://stageidp.apigw.cdkapps.cn/auth/token
+      scope: showroom
+api:
+  gatewayUri: https://stage.apigw.cdkapps.cn/service/MBOBI/987501
+  endpoints:
+    repairOrders: /repair-orders

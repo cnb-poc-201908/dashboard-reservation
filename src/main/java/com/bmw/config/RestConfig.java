@@ -1,4 +1,4 @@
-package com.bmw.auth.config;
+package com.bmw.config;
 
 import java.util.List;
 import org.springframework.context.annotation.Bean;
