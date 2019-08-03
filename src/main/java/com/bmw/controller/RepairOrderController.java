@@ -1,7 +1,5 @@
 package com.bmw.controller;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.codehaus.jackson.map.ObjectMapper;
@@ -9,7 +7,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -39,24 +36,21 @@ public class RepairOrderController {
 	@Autowired
 	RestTemplate restTemplate;
 
+	@Autowired
+	RepairOrderListResponse cachedRepairOrderList;
+
 	@GetMapping(value = "", produces = "application/json")
 	public RestResponse<RepairOrderListResponse> getRepairOrdersByDate(
-			@RequestParam(value = "date", required = false) String date) throws IOException {
-		logger.info("date: {}", date);
-		RestResponse<RepairOrderListResponse> response = new RestResponse<>();
-		File resource = new ClassPathResource("static/data.json", this.getClass().getClassLoader()).getFile();
-		FileInputStream fis = new FileInputStream(resource);
-		RepairOrderListResponse ordersResp = objectMapper.readValue(fis, RepairOrderListResponse.class);
-		fis.close();
+			@RequestParam(value = "date", required = false) String date) {
 
-		response.setData(ordersResp);
-		return response;
+		RestResponse<RepairOrderListResponse> response = new RestResponse<>();
+		response.setData(cachedRepairOrderList);
+    	return response;
 	}
 
 
 	@GetMapping(value = "/{repairOrderId}", produces = "application/json")
-	public RestResponse<RepairOrder> getRepairOrder(@PathVariable("repairOrderId") String repairOrderId)
-			throws IOException {
+	public RestResponse<RepairOrder> getRepairOrder(@PathVariable("repairOrderId") String repairOrderId) {
 
 		StringBuilder urlBuilder = new StringBuilder();
 		urlBuilder.append(gatewayUri)
@@ -72,11 +66,14 @@ public class RepairOrderController {
 			RepairOrder repairOrder = objectMapper.readValue(result, RepairOrder.class);
 			response.setData(repairOrder);
 		} catch (RestClientResponseException rce) {
-			response.setCode(-1);
+			response.setCode(BMWPocConstants.REST_ERROR_CODE);
 			response.setMessage(rce.getMessage());
-			logger.error("failed to get repairOrder, id is {}", repairOrderId);
+			logger.error("failed to get repairOrder, id is {}", repairOrderId, rce);
+		} catch (IOException e) {
+			response.setCode(BMWPocConstants.REST_ERROR_CODE);
+			response.setMessage(e.getMessage());
+			logger.error("failed to parse json object of repairOrder, id is {}", repairOrderId, e);
 		}
-
 		return response;
 	}
 }

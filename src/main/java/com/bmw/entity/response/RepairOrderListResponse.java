@@ -1,13 +1,16 @@
 package com.bmw.entity.response;
 import java.util.List;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import com.bmw.entity.RepairOrder;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class RepairOrderListResponse {
 
 	private Integer totalItems;
 	private Integer totalPages;
-	private List<RepairOrder> repairOrders;
+	private List<RepairOrder> items;
 
     public Integer getTotalItems() {
         return totalItems;
@@ -25,14 +28,14 @@ public class RepairOrderListResponse {
         this.totalPages = totalPages;
     }
 
-    public List<RepairOrder> getRepairOrders() {
-        return repairOrders;
-    }
+	public List<RepairOrder> getItems() {
+		return items;
+	}
 
-    public void setRepairOrders(List<RepairOrder> repairOrders) {
-        this.repairOrders = repairOrders;
-    }
-	
-	
+	public void setItems(List<RepairOrder> items) {
+		this.items = items;
+	}
+
+
 
 }
