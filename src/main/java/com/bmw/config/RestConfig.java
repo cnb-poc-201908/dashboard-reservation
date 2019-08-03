@@ -71,6 +71,10 @@ public class RestConfig implements WebMvcConfigurer {
         return new CorsFilter(configSource);
     }
 
+    /* *
+     * this is only a workaround to fetch list from API V1 and fetch detail from API V2
+     * due to the issue of API V2, will be refactored when the API V2 issue get fixed.
+     * */
     @Bean
     @Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
     public RepairOrderListResponse cachedRepairOrderList() {
@@ -84,26 +88,13 @@ public class RestConfig implements WebMvcConfigurer {
 	    			 .append(endpoint);
 
 	    	UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(urlBuilder.toString())
-	    	        .queryParam("DueInDateFrom", "2458000")
-	    			.queryParam("PageSize", "300");
+	    	        .queryParam("DueInDateFrom", BMWPocConstants.DEFAULT_JULIAN_DATE)
+	    			.queryParam("PageSize", BMWPocConstants.REPAIRORDER_PAGE_SIZE);
 
 	    	String result = restTemplate.getForObject(builder.build().toString(), String.class);
 	    	RepairOrderListResponse orderResp = objectMapper.readValue(result, RepairOrderListResponse.class);
 	    	for(RepairOrder order : orderResp.getItems()) {
-	    		String repairOrderId = order.getRepairOrderId();
-	    		try {
-	    			urlBuilder.setLength(0);
-	    			urlBuilder.append(gatewayUri)
-		    			.append(BMWPocConstants.API_V2)
-		    			.append(endpoint)
-		    			.append("/")
-		    			.append(repairOrderId);
-	    			result = restTemplate.getForObject(urlBuilder.toString(), String.class);
-	    			RepairOrder repairOrder = objectMapper.readValue(result, RepairOrder.class);
-	    			orderList.add(repairOrder);
-	    		} catch (RestClientResponseException rce) {
-	    			logger.error("failed to get repairOrder, id is {}", repairOrderId);
-	    		}
+	    		getRepairOrderById(orderList, urlBuilder, order);
 	    	}
 	    	respData.setTotalPages(1);
 	    	respData.setTotalItems(orderList.size());
@@ -115,4 +106,24 @@ public class RestConfig implements WebMvcConfigurer {
 
     	return respData;
     }
+
+	private void getRepairOrderById(List<RepairOrder> orderList, StringBuilder urlBuilder, RepairOrder order) {
+		String result;
+		String repairOrderId = order.getRepairOrderId();
+		try {
+			urlBuilder.setLength(0);
+			urlBuilder.append(gatewayUri)
+				.append(BMWPocConstants.API_V2)
+				.append(endpoint)
+				.append("/")
+				.append(repairOrderId);
+			result = restTemplate.getForObject(urlBuilder.toString(), String.class);
+			RepairOrder repairOrder = objectMapper.readValue(result, RepairOrder.class);
+			orderList.add(repairOrder);
+		} catch (RestClientResponseException rce) {
+			logger.error("failed to get repairOrder, id is {}", repairOrderId);
+		} catch (IOException e) {
+			logger.error("failed to parse json object of repair order list, id is {}", e);
+		}
+	}
 }

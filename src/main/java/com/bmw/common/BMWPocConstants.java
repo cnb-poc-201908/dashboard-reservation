@@ -11,4 +11,6 @@ public class BMWPocConstants {
 	public static final String API_V2 = "/v2";
 	public static final String KEY_NAME_VALUE = "value";
 	public static final Integer REST_ERROR_CODE = -1;
+	public static final Integer REPAIRORDER_PAGE_SIZE = 200;
+	public static final String DEFAULT_JULIAN_DATE = "2458000";
 }
