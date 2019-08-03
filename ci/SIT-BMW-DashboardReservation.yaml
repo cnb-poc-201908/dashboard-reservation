@@ -15,6 +15,6 @@ spec:
           image: registry.cn-beijing.aliyuncs.com/bmwpoc/sit-bmw-dashboardreservation:{version}
           ports:
             - name: http-port
-              containerPort: 8080
+              containerPort: 20002
       imagePullSecrets:
         - name: bmwpoc
