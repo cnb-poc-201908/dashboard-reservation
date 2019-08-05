@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: k8s
+    active: local
 ---
 spring:
   profiles: local
@@ -8,6 +8,8 @@ spring:
     name: dashboard-reservation
 server:
   port: 20002
+  servlet:
+    context-path: /repairOrder
 security:
   oauth2:
     client:
@@ -40,6 +42,8 @@ management:
     export:
       prometheus:
         enabled: true
+        
+swagger.enabled: true
 
 ## 日志设置配置信息
 logging:
@@ -54,7 +58,6 @@ eureka:
     prefer-ip-address: true
 #    securePortEnabled: true
     instance-id: ${spring.application.name}:${server.port}
-  environment: dev
 
 
 ---
@@ -64,6 +67,8 @@ spring:
     name: dashboard-reservation
 server:
   port: 20002
+  servlet:
+    context-path: /repairOrder
 
 # 服务管理配置
 management:
@@ -85,6 +90,12 @@ management:
       prometheus:
         enabled: true
 
+swagger.enabled: true
+
+## 日志设置配置信息
+logging:
+  config: classpath:logback-boot_k8s.xml
+
 #注册中心
 eureka:
   client:
@@ -93,7 +104,6 @@ eureka:
   instance:
     prefer-ip-address: true
     instance-id: ${spring.application.name}:${server.port}
-  environment: sit
 
 security:
   oauth2:
