@@ -16,5 +16,8 @@ spec:
           ports:
             - name: http-port
               containerPort: 20002
+          env:
+            - name: spring_profiles_active
+              value: k8s
       imagePullSecrets:
         - name: bmwpoc
