@@ -75,37 +75,37 @@ public class RestConfig implements WebMvcConfigurer {
      * this is only a workaround to fetch list from API V1 and fetch detail from API V2
      * due to the issue of API V2, will be refactored when the API V2 issue get fixed.
      * */
-    @Bean
-    @Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
-    public RepairOrderListResponse cachedRepairOrderList() {
-		List<RepairOrder> orderList = new ArrayList<>();
-		RepairOrderListResponse respData = new RepairOrderListResponse();
-		respData.setItems(orderList);
-		try {
-	    	StringBuilder urlBuilder = new StringBuilder();
-	    	urlBuilder.append(gatewayUri)
-	    			 .append(BMWPocConstants.API_V1)
-	    			 .append(endpoint);
-
-	    	UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(urlBuilder.toString())
-	    	        .queryParam("DueInDateFrom", BMWPocConstants.DEFAULT_JULIAN_DATE)
-	    			.queryParam("PageSize", BMWPocConstants.REPAIRORDER_PAGE_SIZE);
-
-	    	String result = restTemplate.getForObject(builder.build().toString(), String.class);
-	    	RepairOrderListResponse orderResp = objectMapper.readValue(result, RepairOrderListResponse.class);
-	    	for(RepairOrder order : orderResp.getItems()) {
-	    		getRepairOrderById(orderList, urlBuilder, order);
-	    	}
-	    	respData.setTotalPages(1);
-	    	respData.setTotalItems(orderList.size());
-		} catch (RestClientResponseException rce) {
-			logger.error("failed to get repair order list, id is {}", rce);
-		} catch (IOException e) {
-			logger.error("failed to parse json object of repair order list, id is {}", e);
-		}
-
-    	return respData;
-    }
+//    @Bean
+//    @Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
+//    public RepairOrderListResponse cachedRepairOrderList() {
+//		List<RepairOrder> orderList = new ArrayList<>();
+//		RepairOrderListResponse respData = new RepairOrderListResponse();
+//		respData.setItems(orderList);
+//		try {
+//	    	StringBuilder urlBuilder = new StringBuilder();
+//	    	urlBuilder.append(gatewayUri)
+//	    			 .append(BMWPocConstants.API_V1)
+//	    			 .append(endpoint);
+//
+//	    	UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(urlBuilder.toString())
+//	    	        .queryParam("DueInDateFrom", BMWPocConstants.DEFAULT_JULIAN_DATE)
+//	    			.queryParam("PageSize", BMWPocConstants.REPAIRORDER_PAGE_SIZE);
+//
+//	    	String result = restTemplate.getForObject(builder.build().toString(), String.class);
+//	    	RepairOrderListResponse orderResp = objectMapper.readValue(result, RepairOrderListResponse.class);
+//	    	for(RepairOrder order : orderResp.getItems()) {
+//	    		getRepairOrderById(orderList, urlBuilder, order);
+//	    	}
+//	    	respData.setTotalPages(1);
+//	    	respData.setTotalItems(orderList.size());
+//		} catch (RestClientResponseException rce) {
+//			logger.error("failed to get repair order list, id is {}", rce);
+//		} catch (IOException e) {
+//			logger.error("failed to parse json object of repair order list, id is {}", e);
+//		}
+//
+//    	return respData;
+//    }
 
 	private void getRepairOrderById(List<RepairOrder> orderList, StringBuilder urlBuilder, RepairOrder order) {
 		String result;

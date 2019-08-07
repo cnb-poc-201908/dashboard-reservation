@@ -36,17 +36,17 @@ public class RepairOrderController {
 	@Autowired
 	RestTemplate restTemplate;
 
-	@Autowired
-	RepairOrderListResponse cachedRepairOrderList;
-
-	@GetMapping(value = "", produces = "application/json")
-	public RestResponse<RepairOrderListResponse> getRepairOrdersByDate(
-			@RequestParam(value = "date", required = false) String date) {
-
-		RestResponse<RepairOrderListResponse> response = new RestResponse<>();
-		response.setData(cachedRepairOrderList);
-    	return response;
-	}
+//	@Autowired
+//	RepairOrderListResponse cachedRepairOrderList;
+//
+//	@GetMapping(value = "", produces = "application/json")
+//	public RestResponse<RepairOrderListResponse> getRepairOrdersByDate(
+//			@RequestParam(value = "date", required = false) String date) {
+//
+//		RestResponse<RepairOrderListResponse> response = new RestResponse<>();
+//		response.setData(cachedRepairOrderList);
+//    	return response;
+//	}
 
 
 	@GetMapping(value = "/{repairOrderId}", produces = "application/json")
