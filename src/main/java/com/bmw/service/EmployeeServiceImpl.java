@@ -26,5 +26,19 @@ public class EmployeeServiceImpl implements EmployeeService{
 		return employeeData;
 		
 	}
+	
+	@Override
+	public String StationGetAll() {
+		String stationData = "";
+		ClassPathResource cpr = new ClassPathResource("station.json");
+		try {
+			byte[] bdata = FileCopyUtils.copyToByteArray(cpr.getInputStream());
+			stationData = new String(bdata,StandardCharsets.UTF_8);
+		}catch(IOException e) {
+			logger.error("failed to get employee file}");
+		}
+		return stationData;
+		
+	}
 }
 	

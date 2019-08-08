@@ -34,7 +34,7 @@ public class EmployeeController {
 	
 	
 	private static Logger logger = LoggerFactory.getLogger(EmployeeController.class);
-	
+	/*
 	@RequestMapping(value = "/employee", method = RequestMethod.GET, produces = "application/json")
 	@ApiOperation(value = "全部技师列表查询")
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "查询成功"), @ApiResponse(code = 400, message = "错误的请求"),
@@ -56,8 +56,9 @@ public class EmployeeController {
 		return response;
 		
 	}
+	*/
 	
-	@RequestMapping(value = "/employeegroup", method = RequestMethod.GET, produces = "application/json")
+	@RequestMapping(value = "/employeeGlist", method = RequestMethod.GET, produces = "application/json")
 	@ApiOperation(value = "全部技师列表查询")
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "查询成功"), @ApiResponse(code = 400, message = "错误的请求"),
 			@ApiResponse(code = 401, message = "没有权限查看此资源"), @ApiResponse(code = 404, message = "资源不存在"),

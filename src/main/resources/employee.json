@@ -148,17 +148,13 @@
             "groupid":"A1",
             "groupname":"01SERV", 
             "Desc":"张江(Serv-1)",
-            "skills":[
-                {
-                    "skill":"A",
-                    "Ability":"125"
-                },
-                {
-                    "skill":"B",
-                    "Ability":"100"
-                }
-            ],
-            "used_time":[
+            "skills":"A",
+            "current_day_hours":"2",
+            "current_month_hours":"16",
+            "current_day_big_task":"0",
+            "current_month_big_task":"0",
+            "effort":"20%",
+           	"used_time":[
             	{
             		"startTime":"9:00",
             		"endTime":"10:00"
@@ -167,41 +163,18 @@
             		"startTime":"14:00",
             		"endTime":"15:00"
             	}
-            ],
-            "stations":[
-            	{
-            		"stations_NO":"S1",
-            		"isused":true
-            	},
-            	{
-            		"stations_NO":"S2",
-            		"isused":true
-            	},
-            	{
-            		"stations_NO":"S3",
-            		"isused":false
-            	},
-            	{
-            		"stations_NO":"S4",
-            		"isused":false
-            	}
-            	
             ]
         },
          {
             "groupid":"A2",
             "groupname":"02SERV", 
             "Desc":"王飞 (Serv-2)",
-            "skills":[
-                {
-                    "skill":"A",
-                    "Ability":"125"
-                },
-                {
-                    "skill":"B",
-                    "Ability":"100"
-                }
-            ],
+            "skills":"A",
+            "current_day_hours":"1",
+            "current_month_hours":"20",
+            "current_day_big_task":"0",
+            "current_month_big_task":"1",
+            "effort":"25%",
             "used_time":[
             	{
             		"startTime":"13:10",
@@ -211,69 +184,48 @@
             		"startTime":"15:00",
             		"endTime":"15:30"
             	}
-            ],
-            "stations":[
-            	{
-            		"stations_NO":"S3",
-            		"isused":true
-            	},
-            	{
-            		"stations_NO":"S4",
-            		"isused":true
-            	},
-            	{
-            		"stations_NO":"S5",
-            		"isused":false
-            	},
-            	{
-            		"stations_NO":"S8",
-            		"isused":false
-            	}
-            	
             ]
         },
         {
             "groupid":"A3",
             "Code":"06ELEC", 
             "Desc":"王宇(Elec)",
-            "skills":[
-                {
-                    "skill":"A",
-                    "Ability":"125"
-                },
-                {
-                    "skill":"B",
-                    "Ability":"100"
-                }
-            ],
+            "skills":"B",
+            "current_day_hours":"4",
+            "current_month_hours":"40",
+            "current_day_big_task":"0",
+            "current_month_big_task":"1",
+            "effort":"35%",
+            "used_time":[
+            	{
+            		"startTime":"08:30",
+            		"endTime":"10:30"
+            	},
+            	{
+            		"startTime":"15:00",
+            		"endTime":"17:00"
+            	}
+            ]
+        },
+        {
+            "groupid":"A4",
+            "Code":"04MECH", 
+            "Desc":"柳青松(Mech-4)",
+            "skills":"B",
+            "current_day_hours":"3",
+            "current_month_hours":"30",
+            "current_day_big_task":"0",
+            "current_month_big_task":"0",
+            "effort":"20%",
             "used_time":[
             	{
             		"startTime":"09:30",
-            		"endTime":"10:40"
+            		"endTime":"11:30"
             	},
             	{
-            		"startTime":"16:00",
-            		"endTime":"17:00"
+            		"startTime":"15:00",
+            		"endTime":"16:00"
             	}
-            ],
-            "stations":[
-            	{
-            		"stations_NO":"S7",
-            		"isused":true
-            	},
-            	{
-            		"stations_NO":"S8",
-            		"isused":true
-            	},
-            	{
-            		"stations_NO":"S3",
-            		"isused":false
-            	},
-            	{
-            		"stations_NO":"S4",
-            		"isused":false
-            	}
-            	
             ]
         }
     ]
