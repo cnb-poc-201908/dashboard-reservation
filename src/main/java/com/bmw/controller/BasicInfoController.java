@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.fastjson.JSONObject;
-import com.bmw.entity.CustomerModel;
+import com.bmw.entity.response.RespForObject;
 import com.bmw.entity.response.ResponseForCustomerList;
 import com.bmw.service.BasicInfoService;
 import com.google.gson.Gson;
@@ -31,22 +31,22 @@ public class BasicInfoController {
 	
 	private static Logger logger = LoggerFactory.getLogger(EmployeeController.class);
 	
-	@RequestMapping(value = "/GetCustomerlist", method = RequestMethod.GET, produces = "application/json")
+	@RequestMapping(value = "/GetBasicInfolist", method = RequestMethod.GET, produces = "application/json")
 	@ApiOperation(value = "全部客户列表查询")
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "查询成功"), @ApiResponse(code = 400, message = "错误的请求"),
 			@ApiResponse(code = 401, message = "没有权限查看此资源"), @ApiResponse(code = 404, message = "资源不存在"),
 			@ApiResponse(code = 500, message = "内部错误请联系管理员") })
-	public ResponseForCustomerList getAllCustomerList() {
-		ResponseForCustomerList response = new ResponseForCustomerList();
+	public RespForObject getAllCustomerList() {
+		RespForObject response = new RespForObject();
 		Gson gson = new Gson();
 		JsonParser parser = new JsonParser();
-		JsonObject customerObject = (JsonObject) parser.parse(basicapp.customerGetAll());
-		JsonArray customerArray = customerObject.get("customers").getAsJsonArray();
-		List<CustomerModel> customerList = JSONObject.parseArray(customerArray.toString(), CustomerModel.class);
+		JsonObject basicObject = (JsonObject) parser.parse(basicapp.getAllBasicInfoList());
+		JsonArray basicArray = basicObject.get("basic_info").getAsJsonArray();
+		List<Object> basicList = JSONObject.parseArray(basicArray.toString(), Object.class);
 		
 		response.setCode(200);
 		response.setMessage("成功");
-		response.setItems(customerList);
+		response.setBasicInfoList(basicList);
 		
 		return response;
 	}

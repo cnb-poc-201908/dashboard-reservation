@@ -15,9 +15,9 @@ public class BasicInfoServiceImpl implements BasicInfoService{
 	private static Logger logger = LoggerFactory.getLogger(EmployeeServiceImpl.class);
 	
 	@Override
-	public String customerGetAll() {
+	public String getAllBasicInfoList() {
 		String customerData = "";
-		ClassPathResource cpr = new ClassPathResource("customer.json");
+		ClassPathResource cpr = new ClassPathResource("basicinfo.json");
 		try {
 			byte[] bdata = FileCopyUtils.copyToByteArray(cpr.getInputStream());
 			customerData = new String(bdata,StandardCharsets.UTF_8);
@@ -27,18 +27,6 @@ public class BasicInfoServiceImpl implements BasicInfoService{
 		return customerData;
 	}
 
-	@Override
-	public String viercleGetAll() {
-		String viericleData = "";
-		ClassPathResource cpr = new ClassPathResource("viercle.json");
-		try {
-			byte[] bdata = FileCopyUtils.copyToByteArray(cpr.getInputStream());
-			viericleData = new String(bdata,StandardCharsets.UTF_8);
-		}catch(IOException e) {
-			logger.error("failed to get customer file}");
-		}
-		return viericleData;
-	}
 	
 
 }

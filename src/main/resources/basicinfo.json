@@ -1,0 +1,277 @@
+{
+	"basic_info": [{
+			"virecle_info": {
+				"v_magic": "1000",
+				"regno": "测A20002",
+				"modelvar": "BG38LI KZ31",
+				"model": "G38LI",
+				"variant": "KZ31",
+				"desc": "540Li",
+				"chassis": "LBVKZ3107JSA99154",
+				"workexpired": "2020/10/01"
+			},
+			"customer_info": {
+				"c_magic": "1",
+				"title": "先生",
+				"surname": "Li",
+				"salute": "LiXuefeng 先生",
+				"phone": "13711110000",
+				"address1": "北京市",
+				"address2": "东城区",
+				"address3": "东城区",
+				"address4": "",
+				"postcode": "123123"
+			},
+			"status": "W",
+			"checkintime": "10:00",
+			"isreservation": "N"
+		},
+		{
+			"customer_info": {
+				"c_magic": "2",
+				"title": "先生",
+				"surname": "裴",
+				"salute": "裴建华 先生",
+				"phone": "18211772100",
+				"address1": "河南省",
+				"address2": "郑州市",
+				"address3": "管城区",
+				"address4": "商城路商城小区",
+				"postcode": "450000"
+			},
+			"virecle_info": {
+				"v_magic": "1001",
+				"regno": "测A20003",
+				"modelvar": "BG12LI 7H21",
+				"model": "G12LI",
+				"variant": "7H21",
+				"desc": "750Li xDrive 7H21",
+				"chassis": "WBA7H2105JGF96123",
+				"workexpired": "2020/10/02"
+			},
+			"status": "W",
+			"checkintime": "09:00",
+			"isreservation": "N"
+		},
+		{
+			"customer_info": {
+				"c_magic": "3",
+				"title": "女士",
+				"surname": "荆",
+				"salute": "荆飞 女士",
+				"phone": "13434781314",
+				"address1": "河南省",
+				"address2": "新乡市",
+				"address3": "封丘县",
+				"address4": "黄陵镇旧黄陵村4组",
+				"postcode": "453300"
+			},
+			"virecle_info": {
+				"v_magic": "1002",
+				"regno": "测A20004",
+				"modelvar": "BG12LI 7H21",
+				"model": "G12LI",
+				"variant": "7H21",
+				"desc": "750Li xDrive 7H21",
+				"chassis": "WBA7H2105JGF96025",
+				"workexpired": "2020/10/03"
+			},
+			"status": "W",
+			"checkintime": "09:30",
+			"isreservation": "Y"
+		},
+		{
+			"customer_info": {
+				"c_magic": "4",
+				"title": "先生",
+				"surname": "王",
+				"salute": "王亮 先生",
+				"phone": "18638670560",
+				"address1": "河南省",
+				"address2": "郑州市",
+				"address3": "管城区",
+				"address4": "陇海东路66号",
+				"postcode": "450000"
+			},
+			"virecle_info": {
+				"v_magic": "1003",
+				"regno": "测A20005",
+				"modelvar": "BG12LI 7H21",
+				"model": "G12LI",
+				"variant": "7H21",
+				"desc": "750Li xDrive 7H21",
+				"chassis": "WBA7H2105JGF96010",
+				"workexpired": "2020/10/04"
+			},
+			"status": "W",
+			"checkintime": "09:40",
+			"isreservation": "Y"
+		},
+		{
+			"customer_info": {
+				"c_magic": "5",
+				"title": "先生",
+				"surname": "闪",
+				"salute": "闪亮 先生",
+				"phone": "18538058066",
+				"address1": "河南省",
+				"address2": "郑州市",
+				"address3": "管城区",
+				"address4": "陇海东路66号院",
+				"postcode": "450000"
+			},
+			"virecle_info": {
+				"v_magic": "1004",
+				"regno": "测A20006",
+				"modelvar": "BG12LI 7H21",
+				"model": "G12LI",
+				"variant": "7H21",
+				"desc": "750Li xDrive 7H21",
+				"chassis": "WBA7H2105JGF96091",
+				"workexpired": "2020/10/05"
+			},
+			"status": "W",
+			"checkintime": "10:40",
+			"isreservation": "N"
+		},
+		{
+			"customer_info": {
+				"c_magic": "6",
+				"title": "先生",
+				"surname": "李",
+				"salute": "李乐 先生",
+				"phone": "13270892021",
+				"address1": "河南省",
+				"address2": "郑州市",
+				"address3": "管城区",
+				"address4": "陇海东路66号院",
+				"postcode": "450000"
+			},
+			"virecle_info": {
+				"v_magic": "1005",
+				"regno": "测A20007",
+				"modelvar": "BG12LI 7H21",
+				"model": "G12LI",
+				"variant": "7H21",
+				"desc": "750Li xDrive 7H21",
+				"chassis": "WBA7H2105JGF96023",
+				"workexpired": "2020/10/06"
+			},
+			"status": "W",
+			"checkintime": "11:40",
+			"isreservation": "N"
+		},
+		{
+			"customer_info": {
+				"c_magic": "7",
+				"title": "先生",
+				"surname": "陈",
+				"salute": "陈新勇d 先生",
+				"phone": "15966667844",
+				"address1": "北京市",
+				"address2": "朝阳区",
+				"address3": "京顺东街88号",
+				"address4": "",
+				"postcode": ""
+			},
+			"virecle_info": {
+				"v_magic": "1006",
+				"regno": "测A20008",
+				"modelvar": "BG12LI 7H21",
+				"model": "G12LI",
+				"variant": "7H21",
+				"desc": "750Li xDrive 7H21",
+				"chassis": "WBA7H2105JGF96017",
+				"workexpired": "2020/10/07"
+			},
+			"status": "W",
+			"checkintime": "12:00",
+			"isreservation": "N"
+
+		},
+		{
+			"customer_info": {
+				"c_magic": "8",
+				"title": "先生",
+				"surname": "黄",
+				"salute": "黄骏霆d 先生",
+				"phone": "15966661111",
+				"address1": "北京市",
+				"address2": "朝阳区",
+				"address3": "京顺东街88号",
+				"address4": "",
+				"postcode": "510000"
+			},
+			"virecle_info": {
+				"v_magic": "1007",
+				"regno": "测A20009",
+				"modelvar": "BG12LI 7H21",
+				"model": "G12LI",
+				"variant": "7H21",
+				"desc": "750Li xDrive 7H21",
+				"chassis": "WBA7H2105JGF96011",
+				"workexpired": "2020/10/08"
+			},
+			"status": "W",
+			"checkintime": "13:00",
+			"isreservation": "N"
+
+		},
+		{
+			"customer_info": {
+				"c_magic": "9",
+				"title": "女士",
+				"surname": "龚",
+				"salute": "龚秀萍d 女士",
+				"phone": "13955556668",
+				"address1": "广东省",
+				"address2": "广州市",
+				"address3": "天河区大观路",
+				"address4": "",
+				"postcode": "512300"
+			},
+			"virecle_info": {
+				"v_magic": "1008",
+				"regno": "测A20010",
+				"modelvar": "BG38LI KZ31",
+				"model": "G38LI",
+				"variant": "KZ31",
+				"desc": "540Li",
+				"chassis": "LBVKZ3107JSA99122",
+				"workexpired": "2020/10/09"
+			},
+			"status": "W",
+			"checkintime": "14:00",
+			"isreservation": "N"
+		},
+		{
+			"customer_info": {
+				"c_magic": "10",
+				"title": "女士",
+				"surname": "刘",
+				"salute": "刘苹d 女士",
+				"phone": "15966660000",
+				"address1": "北京市",
+				"address2": "朝阳区",
+				"address3": "京顺东街88号",
+				"address4": "",
+				"postcode": "110105"
+			},
+			"virecle_info": {
+				"v_magic": "1009",
+				"regno": "测A20011",
+				"modelvar": "BG38LI KZ31",
+				"model": "G38LI",
+				"variant": "KZ31",
+				"desc": "540Li",
+				"chassis": "LBVKZ3107JSA99189",
+				"workexpired": "2020/10/10"
+			},
+			"status": "W",
+			"checkintime": "14:10",
+			"isreservation": "N"
+
+		}
+
+	]
+}
