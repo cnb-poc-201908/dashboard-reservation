@@ -176,6 +176,16 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.32</version>
 		</dependency>
+		<!-- redis -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+		<!-- lettuce -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-pool2</artifactId>
+		</dependency>
         <!-- Spring security 
         <dependency>
         	<groupId>org.springframework.boot</groupId>
