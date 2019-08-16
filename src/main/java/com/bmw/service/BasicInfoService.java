@@ -4,5 +4,7 @@ public interface BasicInfoService {
 	
 	String getAllBasicInfoList();
 	
+	String getPackageList();
+	
 
 }

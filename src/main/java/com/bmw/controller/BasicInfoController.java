@@ -32,7 +32,7 @@ public class BasicInfoController {
 	private static Logger logger = LoggerFactory.getLogger(EmployeeController.class);
 	
 	@RequestMapping(value = "/GetBasicInfolist", method = RequestMethod.GET, produces = "application/json")
-	@ApiOperation(value = "全部客户列表查询")
+	@ApiOperation(value = "全部客户和车辆列表查询")
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "查询成功"), @ApiResponse(code = 400, message = "错误的请求"),
 			@ApiResponse(code = 401, message = "没有权限查看此资源"), @ApiResponse(code = 404, message = "资源不存在"),
 			@ApiResponse(code = 500, message = "内部错误请联系管理员") })
@@ -47,6 +47,26 @@ public class BasicInfoController {
 		response.setCode(200);
 		response.setMessage("成功");
 		response.setBasicInfoList(basicList);
+		
+		return response;
+	}
+	
+	@RequestMapping(value = "/GetPackagelist", method = RequestMethod.GET, produces = "application/json")
+	@ApiOperation(value = "全部package列表查询")
+	@ApiResponses(value = { @ApiResponse(code = 200, message = "查询成功"), @ApiResponse(code = 400, message = "错误的请求"),
+			@ApiResponse(code = 401, message = "没有权限查看此资源"), @ApiResponse(code = 404, message = "资源不存在"),
+			@ApiResponse(code = 500, message = "内部错误请联系管理员") })
+	public RespForObject getAllPackageList() {
+		RespForObject response = new RespForObject();
+		Gson gson = new Gson();
+		JsonParser parser = new JsonParser();
+		JsonObject packageObject = (JsonObject) parser.parse(basicapp.getPackageList());
+		JsonArray packageArray = packageObject.get("compackage").getAsJsonArray();
+		List<Object> packageList = JSONObject.parseArray(packageArray.toString(), Object.class);
+		
+		response.setCode(200);
+		response.setMessage("成功");
+		response.setBasicInfoList(packageList);
 		
 		return response;
 	}

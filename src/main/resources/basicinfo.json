@@ -2,13 +2,15 @@
 	"basic_info": [{
 			"virecle_info": {
 				"v_magic": "1000",
-				"regno": "测A20002",
-				"modelvar": "BG38LI KZ31",
-				"model": "G38LI",
-				"variant": "KZ31",
-				"desc": "540Li",
+				"regno": "京A00001",
+				"fran": "BMW",
+				"model": "E46",
+				"engcode":"D46",
+				"desc": "320Li",
 				"chassis": "LBVKZ3107JSA99154",
-				"workexpired": "2020/10/01"
+				"workexpired": "2020/10/01",
+				"accno":"C0000001",
+				"miles": "30000"
 			},
 			"customer_info": {
 				"c_magic": "1",
@@ -24,7 +26,12 @@
 			},
 			"status": "W",
 			"checkintime": "10:00",
-			"isreservation": "N"
+			"AppointmentFlag": "Y",
+			"AppointmentSA": "王斯伟",
+			"AppointmentSAID": "WS05T001",
+			"AppointmentDate": "2019/08/16",
+			"AppointmentEnterInWorkshopTime": "0.416666666666667",
+			"AppointmentComment": "发动机油保养"
 		},
 		{
 			"customer_info": {
@@ -41,17 +48,23 @@
 			},
 			"virecle_info": {
 				"v_magic": "1001",
-				"regno": "测A20003",
-				"modelvar": "BG12LI 7H21",
-				"model": "G12LI",
-				"variant": "7H21",
-				"desc": "750Li xDrive 7H21",
-				"chassis": "WBA7H2105JGF96123",
-				"workexpired": "2020/10/02"
+				"regno": "京A00002",
+				"model": "E46",
+				"engcode":"D46",
+				"desc": "320Li A",
+				"chassis": "LBV8W3109JMM66003",
+				"workexpired": "2020/10/02",
+				"accno":"C0000001",
+				"miles": "34124"
 			},
 			"status": "W",
 			"checkintime": "09:00",
-			"isreservation": "N"
+			"AppointmentFlag": "",
+			"AppointmentSA": "",
+			"AppointmentSAID": "",
+			"AppointmentDate": "",
+			"AppointmentEnterInWorkshopTime": "",
+			"AppointmentComment": ""
 		},
 		{
 			"customer_info": {
@@ -68,17 +81,24 @@
 			},
 			"virecle_info": {
 				"v_magic": "1002",
-				"regno": "测A20004",
-				"modelvar": "BG12LI 7H21",
-				"model": "G12LI",
-				"variant": "7H21",
-				"desc": "750Li xDrive 7H21",
-				"chassis": "WBA7H2105JGF96025",
-				"workexpired": "2020/10/03"
+				"regno": "京A00006",
+				"fran": "BMW",
+				"model": "E46",
+				"engcode":"D46",
+				"desc": "320Li",
+				"chassis": "WBAPG510XBA846572",
+				"workexpired": "2020/10/05",
+				"accno":"C0000909",
+				"miles": "100000"
 			},
 			"status": "W",
 			"checkintime": "09:30",
-			"isreservation": "Y"
+			"AppointmentFlag": "Y",
+			"AppointmentSA": "张迪",
+			"AppointmentSAID": "WS04T001",
+			"AppointmentDate": "2019/08/16",
+			"AppointmentEnterInWorkshopTime": "0.5",
+			"AppointmentComment": "发动机异响检查"
 		},
 		{
 			"customer_info": {
@@ -95,17 +115,24 @@
 			},
 			"virecle_info": {
 				"v_magic": "1003",
-				"regno": "测A20005",
-				"modelvar": "BG12LI 7H21",
-				"model": "G12LI",
-				"variant": "7H21",
-				"desc": "750Li xDrive 7H21",
-				"chassis": "WBA7H2105JGF96010",
-				"workexpired": "2020/10/04"
+				"regno": "京C23001",
+				"fran": "BMW",
+				"model": "E46",
+				"engcode":"D46",
+				"desc": "320Li",
+				"chassis": "LBV3M2108EMC54311",
+				"workexpired": "2018/10/07",
+				"accno":"C0000909",
+				"miles": "100000"
 			},
 			"status": "W",
 			"checkintime": "09:40",
-			"isreservation": "Y"
+			"AppointmentFlag": "Y",
+			"AppointmentSA": "马超",
+			"AppointmentSAID": "WS06T001",
+			"AppointmentDate": "2019/08/16",
+			"AppointmentEnterInWorkshopTime": "0.583333333333333",
+			"AppointmentComment": "10万公里保养"
 		},
 		{
 			"customer_info": {
@@ -122,17 +149,24 @@
 			},
 			"virecle_info": {
 				"v_magic": "1004",
-				"regno": "测A20006",
-				"modelvar": "BG12LI 7H21",
-				"model": "G12LI",
-				"variant": "7H21",
-				"desc": "750Li xDrive 7H21",
-				"chassis": "WBA7H2105JGF96091",
-				"workexpired": "2020/10/05"
+				"regno": "京C23002",
+				"fran": "BMW",
+				"model": "E46",
+				"engcode":"D46",
+				"desc": "320I CHN CBU A",
+				"chassis": "LBVPS5105BSD53782",
+				"workexpired": "2017/10/06",
+				"accno":"C0000001",
+				"miles": "150000"
 			},
 			"status": "W",
 			"checkintime": "10:40",
-			"isreservation": "N"
+			"AppointmentFlag": "Y",
+			"AppointmentSA": "刘伟",
+			"AppointmentSAID": "WS07T001",
+			"AppointmentDate": "2019/08/16",
+			"AppointmentEnterInWorkshopTime": "0.416666666666667",
+			"AppointmentComment": "事故车"
 		},
 		{
 			"customer_info": {
@@ -149,17 +183,24 @@
 			},
 			"virecle_info": {
 				"v_magic": "1005",
-				"regno": "测A20007",
-				"modelvar": "BG12LI 7H21",
-				"model": "G12LI",
-				"variant": "7H21",
-				"desc": "750Li xDrive 7H21",
-				"chassis": "WBA7H2105JGF96023",
-				"workexpired": "2020/10/06"
+				"regno": "京C23003",
+				"fran": "BMW",
+				"model": "E46",
+				"engcode":"D46",
+				"desc": "320I A",
+				"chassis": "LBV8A1406JMM11509",
+				"workexpired": "2020/10/09",
+				"accno":"C0000002",
+				"miles": "20000"
 			},
 			"status": "W",
 			"checkintime": "11:40",
-			"isreservation": "N"
+			"AppointmentFlag": "",
+			"AppointmentSA": "",
+			"AppointmentSAID": "",
+			"AppointmentDate": "",
+			"AppointmentEnterInWorkshopTime": "",
+			"AppointmentComment": ""
 		},
 		{
 			"customer_info": {
@@ -176,17 +217,24 @@
 			},
 			"virecle_info": {
 				"v_magic": "1006",
-				"regno": "测A20008",
-				"modelvar": "BG12LI 7H21",
-				"model": "G12LI",
-				"variant": "7H21",
-				"desc": "750Li xDrive 7H21",
-				"chassis": "WBA7H2105JGF96017",
-				"workexpired": "2020/10/07"
+				"regno": "京C23004",
+				"fran": "BMW",
+				"model": "E46",
+				"engcode":"D46",
+				"desc": "320LI A",
+				"chassis": "LBV8W3101HMH07467",
+				"workexpired": "2020/10/20",
+				"accno":"C0000005",
+				"miles": "21001"
 			},
 			"status": "W",
 			"checkintime": "12:00",
-			"isreservation": "N"
+			"AppointmentFlag": "",
+			"AppointmentSA": "",
+			"AppointmentSAID": "",
+			"AppointmentDate": "",
+			"AppointmentEnterInWorkshopTime": "",
+			"AppointmentComment": ""
 
 		},
 		{
@@ -204,17 +252,24 @@
 			},
 			"virecle_info": {
 				"v_magic": "1007",
-				"regno": "测A20009",
-				"modelvar": "BG12LI 7H21",
-				"model": "G12LI",
-				"variant": "7H21",
-				"desc": "750Li xDrive 7H21",
-				"chassis": "WBA7H2105JGF96011",
-				"workexpired": "2020/10/08"
+				"regno": "沪A34123",
+				"fran": "BMW",
+				"model": "E46",
+				"engcode":"D46",
+				"desc": "320I A",
+				"chassis": "LBV1111111G334559",
+				"workexpired": "2020/10/20",
+				"accno":"C0000001",
+				"miles": ""
 			},
 			"status": "W",
 			"checkintime": "13:00",
-			"isreservation": "N"
+			"AppointmentFlag": "",
+			"AppointmentSA": "",
+			"AppointmentSAID": "",
+			"AppointmentDate": "",
+			"AppointmentEnterInWorkshopTime": "",
+			"AppointmentComment": ""
 
 		},
 		{
@@ -232,17 +287,24 @@
 			},
 			"virecle_info": {
 				"v_magic": "1008",
-				"regno": "测A20010",
-				"modelvar": "BG38LI KZ31",
-				"model": "G38LI",
-				"variant": "KZ31",
-				"desc": "540Li",
-				"chassis": "LBVKZ3107JSA99122",
-				"workexpired": "2020/10/09"
+				"regno": "沪A34124",
+				"fran": "BMW",
+				"model": "E46",
+				"engcode":"D46",
+				"desc": "320I A",
+				"chassis": "LBVKZ3107JSA99107",
+				"workexpired": "2020/10/12",
+				"accno":"C0000001",
+				"miles": ""
 			},
 			"status": "W",
 			"checkintime": "14:00",
-			"isreservation": "N"
+			"AppointmentFlag": "",
+			"AppointmentSA": "",
+			"AppointmentSAID": "",
+			"AppointmentDate": "",
+			"AppointmentEnterInWorkshopTime": "",
+			"AppointmentComment": ""
 		},
 		{
 			"customer_info": {
@@ -259,17 +321,24 @@
 			},
 			"virecle_info": {
 				"v_magic": "1009",
-				"regno": "测A20011",
-				"modelvar": "BG38LI KZ31",
-				"model": "G38LI",
-				"variant": "KZ31",
+				"regno": "沪A34126",
+				"fran": "BMW",
+				"model": "E46",
+				"engcode":"D46",
 				"desc": "540Li",
-				"chassis": "LBVKZ3107JSA99189",
-				"workexpired": "2020/10/10"
+				"chassis": "LBVKZ3107JSA99195",
+				"workexpired": "2020/10/14",
+				"accno":"C0000001",
+				"miles": "5005"
 			},
 			"status": "W",
 			"checkintime": "14:10",
-			"isreservation": "N"
+			"AppointmentFlag": "",
+			"AppointmentSA": "",
+			"AppointmentSAID": "",
+			"AppointmentDate": "",
+			"AppointmentEnterInWorkshopTime": "",
+			"AppointmentComment": ""
 
 		}
 
