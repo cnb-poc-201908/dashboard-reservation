@@ -67,24 +67,24 @@ public class BasicInfoController {
 		JsonObject basicObject = (JsonObject) parser.parse(basicapp.getAllBasicInfoList());
 		JsonArray basicArray = basicObject.get("basic_info").getAsJsonArray();
 		List<Object> basicList = JSONObject.parseArray(basicArray.toString(), Object.class);
+		List<Object> basicItemList = new ArrayList<>();
+		boolean isExist = false;
 		if(StringUtils.isNotBlank(regid) ) {
 			for(int i=0; i < basicArray.size(); i++) {
 				String objItem = basicArray.get(i).toString();
 				JSONObject basicObj = JSONObject.parseObject(objItem);
 				String vercleItem = basicObj.getString("virecle_info");
 				if(vercleItem.contains(regid)) {
+					isExist = true;
 					response.setCode(200);
 					response.setMessage("成功");
-					List<Object> basicItemList = new ArrayList<>();
 					basicItemList.add(basicObj);
-					response.setBasicInfoList(basicItemList);
-					break;
-				}
-				else {
-					response.setCode(0);
-					response.setMessage("没有记录");
 				}
 			}
+			if(!isExist){
+				response.setCode(-1);
+			}
+			response.setBasicInfoList(basicItemList);
 			
 		}
 		else {
