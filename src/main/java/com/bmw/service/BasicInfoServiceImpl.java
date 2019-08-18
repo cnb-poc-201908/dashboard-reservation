@@ -42,6 +42,21 @@ public class BasicInfoServiceImpl implements BasicInfoService{
 		return packageData;
 	}
 
+	@Override
+	public String getPaintingPackageList() {
+		// TODO Auto-generated method stub
+		String packageData = "";
+		ClassPathResource cpr = new ClassPathResource("paintpackage.json");
+		try {
+			byte[] bdata = FileCopyUtils.copyToByteArray(cpr.getInputStream());
+			packageData = new String(bdata,StandardCharsets.UTF_8);
+		}catch(IOException e) {
+			logger.error("failed to get customer file}");
+		}
+		return packageData;
+		
+	}
+
 	
 
 }

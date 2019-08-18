@@ -6,5 +6,7 @@ public interface BasicInfoService {
 	
 	String getPackageList();
 	
+	String getPaintingPackageList();
+	
 
 }
