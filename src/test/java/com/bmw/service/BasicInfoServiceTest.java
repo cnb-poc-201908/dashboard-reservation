@@ -20,6 +20,8 @@ public class BasicInfoServiceTest {
 	 */
 	@Test
 	public void testGetAllBasicInfoList() {
+		BasicInfoService bis = new BasicInfoServiceImpl();
+		bis.getAllBasicInfoList();
 		assertTrue(true);
 	}
 
