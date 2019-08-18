@@ -161,7 +161,31 @@
             <artifactId>annotations-java5</artifactId>
             <version>RELEASE</version>
         </dependency>
-        
+        <dependency>
+		    <groupId>org.hdrhistogram</groupId>
+		    <artifactId>HdrHistogram</artifactId>
+		    <version>2.1.11</version>
+		</dependency>
+		 <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.32</version>
+		</dependency>
+		<!-- redis -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+		<!-- lettuce -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-pool2</artifactId>
+		</dependency>
         <!-- Spring security 
         <dependency>
         	<groupId>org.springframework.boot</groupId>
@@ -172,6 +196,11 @@
             <artifactId>spring-security-oauth2</artifactId>
             <version>2.3.3.RELEASE</version>
         </dependency>-->
+		<dependency>
+			<groupId>org.jacoco</groupId>
+			<artifactId>jacoco-maven-plugin</artifactId>
+			<version>0.8.1</version>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
@@ -234,7 +263,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<configuration>
-					<skip>true</skip>
+					<skip>false</skip>
 					<includes>
 						<include>**/*Test*.java</include>
 					</includes>
@@ -260,6 +289,29 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-install-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.1</version>
+				<configuration>
+					<skip>false</skip>
+					<outputDirectory>${basedir}/target/jacoco</outputDirectory>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>report</id>
+						<phase>test</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

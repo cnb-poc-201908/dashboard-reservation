@@ -1,0 +1,1157 @@
+{
+	"contents": [{
+			"Magic": "1",
+			"PackageID": "A00001",
+			"PackageName": "左前车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "9",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				},
+				{
+					"ProcessNO": "2",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左前车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "2",
+			"PackageID": "A00002",
+			"PackageName": "左前车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "9",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				},
+				{
+					"ProcessNO": "2",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左前车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "3",
+			"PackageID": "A00003",
+			"PackageName": "左前车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "9",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				},
+				{
+					"ProcessNO": "2",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左前车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "4",
+			"PackageID": "A00004",
+			"PackageName": "右前车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "6",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右前车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "5",
+			"PackageID": "A00005",
+			"PackageName": "右前车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "6",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右前车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "6",
+			"PackageID": "A00006",
+			"PackageName": "右前车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "6",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右前车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "7",
+			"PackageID": "A00007",
+			"PackageName": "左后车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "8",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左后车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "8",
+			"PackageID": "A00008",
+			"PackageName": "左后车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "8",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左后车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "9",
+			"PackageID": "A00009",
+			"PackageName": "左后车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "8",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左后车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "10",
+			"PackageID": "A00010",
+			"PackageName": "右后车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "5",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右后车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "11",
+			"PackageID": "A00011",
+			"PackageName": "右后车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "5",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右后车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "12",
+			"PackageID": "A00012",
+			"PackageName": "右后车门喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "5",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左前或右前门隔边以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右后车门喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "13",
+			"PackageID": "A00013",
+			"PackageName": "后保险杠喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "1",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9969009",
+					"Description1":"后保险杠喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "后保险杠喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "14",
+			"PackageID": "A00014",
+			"PackageName": "后保险杠喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "1",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9969009",
+					"Description1":"后保险杠喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "后保险杠喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "15",
+			"PackageID": "A00015",
+			"PackageName": "后保险杠喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "1",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9969009",
+					"Description1":"后保险杠喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "后保险杠喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "16",
+			"PackageID": "A00016",
+			"PackageName": "前保险杠喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "13",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9968009",
+					"Description1":"前保险杠喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "前保险杠喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "17",
+			"PackageID": "A00017",
+			"PackageName": "前保险杠喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "13",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9968009",
+					"Description1":"前保险杠喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "前保险杠喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "18",
+			"PackageID": "A00018",
+			"PackageName": "前保险杠喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "13",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9968009",
+					"Description1":"前保险杠喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "前保险杠喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "19",
+			"PackageID": "A00019",
+			"PackageName": "后部行李箱盖",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "3",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9962015",
+					"Description1":"后部行李箱盖",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "后部行李箱盖",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "20",
+			"PackageID": "A00020",
+			"PackageName": "后部行李箱盖",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "3",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9962015",
+					"Description1":"后部行李箱盖",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "后部行李箱盖",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "21",
+			"PackageID": "A00021",
+			"PackageName": "后部行李箱盖",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "3",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9962015",
+					"Description1":"后部行李箱盖",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "后部行李箱盖",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "22",
+			"PackageID": "A00022",
+			"PackageName": "左后侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "4",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9936209",
+					"Description1":"左右侧围分割线以下喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				},
+				{
+					"ProcessNO": "2",
+					"Code":"9936135",
+					"Description1":"左右恻围分割线以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左后侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "23",
+			"PackageID": "A00023",
+			"PackageName": "左后侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "4",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9936209",
+					"Description1":"左右侧围分割线以下喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				},
+				{
+					"ProcessNO": "2",
+					"Code":"9936135",
+					"Description1":"左右恻围分割线以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左后侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "24",
+			"PackageID": "A00024",
+			"PackageName": "左后侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "4",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9936209",
+					"Description1":"左右侧围分割线以下喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				},
+				{
+					"ProcessNO": "2",
+					"Code":"9936135",
+					"Description1":"左右恻围分割线以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左后侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "25",
+			"PackageID": "A00025",
+			"PackageName": "右后侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "2",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左右侧围分割线以下喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				},
+				{
+					"ProcessNO": "2",
+					"Code":"9951135",
+					"Description1":"左右恻围分割线以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右后侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "26",
+			"PackageID": "A00026",
+			"PackageName": "右后侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "2",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左右侧围分割线以下喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				},
+				{
+					"ProcessNO": "2",
+					"Code":"9951135",
+					"Description1":"左右恻围分割线以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右后侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "27",
+			"PackageID": "A00027",
+			"PackageName": "右后侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "2",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9951135",
+					"Description1":"左右侧围分割线以下喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				},
+				{
+					"ProcessNO": "2",
+					"Code":"9951135",
+					"Description1":"左右恻围分割线以上喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右后侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "28",
+			"PackageID": "A00028",
+			"PackageName": "车顶喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "7",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "3",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9931009",
+					"Description1":"车顶喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "车顶喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "29",
+			"PackageID": "A00029",
+			"PackageName": "车顶喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "7",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "3",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9931009",
+					"Description1":"车顶喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "车顶喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "30",
+			"PackageID": "A00030",
+			"PackageName": "车顶喷漆",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "7",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "3",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9931009",
+					"Description1":"车顶喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "车顶喷漆",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "31",
+			"PackageID": "A00031",
+			"PackageName": "左前侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "12",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9935009",
+					"Description1":"左前或右前侧围喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左前侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "32",
+			"PackageID": "A00032",
+			"PackageName": "左前侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "12",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9935009",
+					"Description1":"左前或右前侧围喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左前侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "33",
+			"PackageID": "A00033",
+			"PackageName": "左前侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "12",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9935009",
+					"Description1":"左前或右前侧围喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "左前侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "34",
+			"PackageID": "A00034",
+			"PackageName": "右前侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "10",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9935009",
+					"Description1":"左前或右前侧围喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右前侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "35",
+			"PackageID": "A00035",
+			"PackageName": "右前侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "10",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9935009",
+					"Description1":"左前或右前侧围喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右前侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "36",
+			"PackageID": "A00036",
+			"PackageName": "右前侧围",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "10",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "1",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9935009",
+					"Description1":"左前或右前侧围喷漆",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "右前侧围",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "37",
+			"PackageID": "A00037",
+			"PackageName": "车前盖",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "11",
+			"ProcesslevelforPaint": "1",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9961009",
+					"Description1":"车前盖",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "车前盖",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "38",
+			"PackageID": "A00038",
+			"PackageName": "车前盖",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "11",
+			"ProcesslevelforPaint": "2",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9961009",
+					"Description1":"车前盖",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "车前盖",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		},
+		{
+			"Magic": "39",
+			"PackageID": "A00039",
+			"PackageName": "车前盖",
+			"AccountID": "C0000001",
+			"RepairType": "事故车",
+			"RepairTypeCode": "INC",
+			"PaintArea": "11",
+			"ProcesslevelforPaint": "3",
+			"PaintFlooramount": "2",
+			"Labor":[
+				{
+					"ProcessNO": "1",
+					"Code":"9961009",
+					"Description1":"车前盖",
+					"Amount":"10.00",
+					"Price":"300.00"
+				}
+			],
+			"Part":[],
+			"PackagePrice": "",
+			"Model": "E46",
+			"Engine": "D46",
+			"Shortname": "车前盖",
+			"UsedinWIP/1": "",
+			"UsedinWIP/3": "",
+			"UsedinWIP/12": ""
+		}
+	]
+}
