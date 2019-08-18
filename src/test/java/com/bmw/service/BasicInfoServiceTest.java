@@ -30,6 +30,8 @@ public class BasicInfoServiceTest {
 	 */
 	@Test
 	public void testGetPackageList() {
+		BasicInfoService bis = new BasicInfoServiceImpl();
+		bis.getPackageList();
 		assertTrue(true);
 	}
 
