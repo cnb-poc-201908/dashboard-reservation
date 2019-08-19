@@ -27,7 +27,7 @@ def customImage
 	stage('build and run the SonarQube analysis') {
 		sh 'chmod +x mvnw'
         withSonarQubeEnv(credentialsId: SONAR_CRED) {
-          sh "./mvnw clean jacoco:prepare-agent install jacoco:report sonar:sonar"
+          sh "./mvnw clean install jacoco:report sonar:sonar"
         }
 		 timeout(time: 10, unit: 'MINUTES') {
 			def qg = waitForQualityGate()
