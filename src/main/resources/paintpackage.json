@@ -9,23 +9,23 @@
 			"PaintArea": "9",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				},
 				{
 					"ProcessNO": "2",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -44,23 +44,23 @@
 			"PaintArea": "9",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				},
 				{
 					"ProcessNO": "2",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -79,22 +79,23 @@
 			"PaintArea": "9",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				},
 				{
 					"ProcessNO": "2",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -113,16 +114,16 @@
 			"PaintArea": "6",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -141,16 +142,16 @@
 			"PaintArea": "6",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -169,16 +170,16 @@
 			"PaintArea": "6",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -197,16 +198,16 @@
 			"PaintArea": "8",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -225,16 +226,16 @@
 			"PaintArea": "8",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -253,16 +254,16 @@
 			"PaintArea": "8",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -281,16 +282,16 @@
 			"PaintArea": "5",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -309,16 +310,16 @@
 			"PaintArea": "5",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -337,16 +338,16 @@
 			"PaintArea": "5",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左前或右前门隔边以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左前或右前门隔边以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -365,16 +366,16 @@
 			"PaintArea": "1",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9969009",
-					"Description1":"后保险杠喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9969009",
+					"LaborDescription":"后保险杠喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -393,16 +394,16 @@
 			"PaintArea": "1",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9969009",
-					"Description1":"后保险杠喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9969009",
+					"LaborDescription":"后保险杠喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -421,16 +422,16 @@
 			"PaintArea": "1",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9969009",
-					"Description1":"后保险杠喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9969009",
+					"LaborDescription":"后保险杠喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -449,16 +450,16 @@
 			"PaintArea": "13",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9968009",
-					"Description1":"前保险杠喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9968009",
+					"LaborDescription":"前保险杠喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -477,16 +478,16 @@
 			"PaintArea": "13",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9968009",
-					"Description1":"前保险杠喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9968009",
+					"LaborDescription":"前保险杠喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -505,16 +506,16 @@
 			"PaintArea": "13",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9968009",
-					"Description1":"前保险杠喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9968009",
+					"LaborDescription":"前保险杠喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -533,16 +534,16 @@
 			"PaintArea": "3",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9962015",
-					"Description1":"后部行李箱盖",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9962015",
+					"LaborDescription":"后部行李箱盖",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -561,16 +562,16 @@
 			"PaintArea": "3",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9962015",
-					"Description1":"后部行李箱盖",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9962015",
+					"LaborDescription":"后部行李箱盖",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -589,16 +590,16 @@
 			"PaintArea": "3",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9962015",
-					"Description1":"后部行李箱盖",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9962015",
+					"LaborDescription":"后部行李箱盖",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -617,23 +618,23 @@
 			"PaintArea": "4",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9936209",
-					"Description1":"左右侧围分割线以下喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9936209",
+					"LaborDescription":"左右侧围分割线以下喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				},
 				{
 					"ProcessNO": "2",
-					"Code":"9936135",
-					"Description1":"左右恻围分割线以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9936135",
+					"LaborDescription":"左右恻围分割线以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -652,23 +653,23 @@
 			"PaintArea": "4",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9936209",
-					"Description1":"左右侧围分割线以下喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9936209",
+					"LaborDescription":"左右侧围分割线以下喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				},
 				{
 					"ProcessNO": "2",
-					"Code":"9936135",
-					"Description1":"左右恻围分割线以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9936135",
+					"LaborDescription":"左右恻围分割线以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -687,23 +688,23 @@
 			"PaintArea": "4",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9936209",
-					"Description1":"左右侧围分割线以下喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9936209",
+					"LaborDescription":"左右侧围分割线以下喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				},
 				{
 					"ProcessNO": "2",
-					"Code":"9936135",
-					"Description1":"左右恻围分割线以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9936135",
+					"LaborDescription":"左右恻围分割线以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -722,23 +723,23 @@
 			"PaintArea": "2",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左右侧围分割线以下喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左右侧围分割线以下喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				},
 				{
 					"ProcessNO": "2",
-					"Code":"9951135",
-					"Description1":"左右恻围分割线以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左右恻围分割线以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -757,23 +758,23 @@
 			"PaintArea": "2",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左右侧围分割线以下喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左右侧围分割线以下喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				},
 				{
 					"ProcessNO": "2",
-					"Code":"9951135",
-					"Description1":"左右恻围分割线以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左右恻围分割线以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -792,23 +793,23 @@
 			"PaintArea": "2",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9951135",
-					"Description1":"左右侧围分割线以下喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左右侧围分割线以下喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				},
 				{
 					"ProcessNO": "2",
-					"Code":"9951135",
-					"Description1":"左右恻围分割线以上喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9951135",
+					"LaborDescription":"左右恻围分割线以上喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -827,16 +828,16 @@
 			"PaintArea": "7",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "3",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9931009",
-					"Description1":"车顶喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9931009",
+					"LaborDescription":"车顶喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -855,16 +856,16 @@
 			"PaintArea": "7",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "3",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9931009",
-					"Description1":"车顶喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9931009",
+					"LaborDescription":"车顶喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -883,16 +884,16 @@
 			"PaintArea": "7",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "3",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9931009",
-					"Description1":"车顶喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9931009",
+					"LaborDescription":"车顶喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -911,16 +912,16 @@
 			"PaintArea": "12",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9935009",
-					"Description1":"左前或右前侧围喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9935009",
+					"LaborDescription":"左前或右前侧围喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -939,16 +940,16 @@
 			"PaintArea": "12",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9935009",
-					"Description1":"左前或右前侧围喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9935009",
+					"LaborDescription":"左前或右前侧围喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -967,16 +968,16 @@
 			"PaintArea": "12",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9935009",
-					"Description1":"左前或右前侧围喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9935009",
+					"LaborDescription":"左前或右前侧围喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -995,16 +996,16 @@
 			"PaintArea": "10",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9935009",
-					"Description1":"左前或右前侧围喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9935009",
+					"LaborDescription":"左前或右前侧围喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -1023,16 +1024,16 @@
 			"PaintArea": "10",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9935009",
-					"Description1":"左前或右前侧围喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9935009",
+					"LaborDescription":"左前或右前侧围喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -1051,16 +1052,16 @@
 			"PaintArea": "10",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "1",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9935009",
-					"Description1":"左前或右前侧围喷漆",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9935009",
+					"LaborDescription":"左前或右前侧围喷漆",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -1079,16 +1080,16 @@
 			"PaintArea": "11",
 			"ProcesslevelforPaint": "1",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9961009",
-					"Description1":"车前盖",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9961009",
+					"LaborDescription":"车前盖",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -1107,16 +1108,16 @@
 			"PaintArea": "11",
 			"ProcesslevelforPaint": "2",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9961009",
-					"Description1":"车前盖",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9961009",
+					"LaborDescription":"车前盖",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",
@@ -1135,16 +1136,16 @@
 			"PaintArea": "11",
 			"ProcesslevelforPaint": "3",
 			"PaintFlooramount": "2",
-			"Labor":[
+			"Laborinfo":[
 				{
 					"ProcessNO": "1",
-					"Code":"9961009",
-					"Description1":"车前盖",
-					"Amount":"10.00",
-					"Price":"300.00"
+					"LaborCode":"9961009",
+					"LaborDescription":"车前盖",
+					"LaborAmount":"10.00",
+					"LaborPrice":"300.00"
 				}
 			],
-			"Part":[],
+			"PartInfo":[],
 			"PackagePrice": "",
 			"Model": "E46",
 			"Engine": "D46",

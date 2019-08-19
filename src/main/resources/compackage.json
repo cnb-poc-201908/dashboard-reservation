@@ -1,937 +1,1413 @@
 {
 	"compackage": [{
-			"Magic": "1",
-			"PackageID": "SRP001",
-			"PackageName": "发动机油保养",
+		"Magic": "1",
+		"PackageID": "SRP001",
+		"PackageName": "机油机滤",
+		"AccountID": "C0000001",
+		"RepairType": "保养",
+		"RepairTypeCode": "MA",
+		"CHECKType": "",
+		"Laborinfo":[
+			{
+				"LaborCode": "0000610",
+				"LaborAmount": "3.00",
+				"LaborDescription": "发动机油保养",
+				"LaborUnitPrice": "40.00",
+				"LaborPrice": "120.00",
+				"LaborStatus": "F"
+			},
+			{
+				"LaborCode": "0000105",
+				"LaborAmount": "2.00",
+				"LaborDescription": "保养标准范围",
+				"LaborUnitPrice": "40.00",
+				"LaborPrice": "80.00",
+				"LaborStatus": "F"
+			}
+		],
+		"PartInfo": [
+			{
+			  "PartsAmount": "1.00",
+			  "PartsCode": "11427508969",
+			  "PartsName": "机油滤清器滤芯",
+			  "PartPrice": "150.00",
+			  "Partstatus": "F"
+			},
+			{
+			  "PartsAmount": "5",
+			  "PartsCode": "83210398511",
+			  "PartsName": "发动机机油 5W20 1L",
+			  "PartPrice": "200.00",
+			  "Partstatus": "F"
+			},
+			{
+			  "PartsAmount": "5",
+			  "PartsCode": "83210398512",
+			  "PartsName": "BMW机油 5W40 1L",
+			  "PartPrice": "300.00",
+			  "Partstatus": "F"
+			}
+		  ],
+		  "PackagePrice": "",
+		  "Model": "",
+		  "Engine": ""
+		},
+		{
+			"Magic": "2",
+			"PackageID": "SRP002",
+			"PackageName": "空调滤芯",
 			"AccountID": "C0000001",
 			"RepairType": "保养",
 			"RepairTypeCode": "MA",
+			"CHECKType": "",
 			"Laborinfo":[
 				{
-					"LaborCode": "0000610",
-					"LaborDescription": "发动机油保养",
+					"LaborCode": "0000711",
 					"LaborAmount": "3.00",
-					"LaborPrice": "130.00"
+					"LaborDescription": "更换空调滤芯",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "120.00",
+					"LaborStatus": "F"
 				},
 				{
 					"LaborCode": "0000105",
-					"LaborDescription": "保养标准范围",
 					"LaborAmount": "2.00",
-					"LaborPrice": "100.00"
+					"LaborDescription": "保养标准范围",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80.00",
+					"LaborStatus": "F"
 				}
 			],
-			"PartInfo":[
+			"PartInfo": [
 				{
-					"PartsCode": "11427508969",
-					"PartsName": "机油滤清器滤芯",
-					"PartsAmount": "1.00",
-					"PartPrice": "150.00"
-				},
-				{
-					"PartsCode": "83210398511",
-					"PartsName": "发动机机油 5W30",
-					"PartsAmount": "4.25",
-					"PartPrice": "200.0"
+				  "PartsAmount": "1.00",
+				  "PartsCode": "11430110101",
+				  "PartsName": "空调滤芯",
+				  "PartPrice": "300.00",
+				  "Partstatus": "F"
 				}
 			],
 			"PackagePrice": "",
-			"Campaign1": "E0001",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E46",
-			"Engine": "N46",
-			"Process_level_for_Paint": "N",
-			"Shortname": "发动机油保养",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "3",
+			"PackageID": "SRP003",
+			"PackageName": "空气滤芯",
+			"AccountID": "C0000001",
+			"RepairType": "保养",
+			"RepairTypeCode": "MA",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "0000105",
+					"LaborAmount": "2.00",
+					"LaborDescription": "保养标准范围",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [
+				{
+				  "PartsAmount": "1.00",
+				  "PartsCode": "11430110102",
+				  "PartsName": "空调滤芯",
+				  "PartPrice": "300.00",
+				  "Partstatus": "F"
+				}
+			],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "4",
+			"PackageID": "SRP004",
+			"PackageName": "燃油滤芯",
+			"AccountID": "C0000001",
+			"RepairType": "保养",
+			"RepairTypeCode": "MA",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "0000714",
+					"LaborAmount": "3.00",
+					"LaborDescription": "更换燃油滤芯",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "120.00",
+					"LaborStatus": "F"
+				},
+				{
+					"LaborCode": "0000105",
+					"LaborAmount": "2.00",
+					"LaborDescription": "保养标准范围",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [
+				{
+				  "PartsAmount": "1.00",
+				  "PartsCode": "11430110103",
+				  "PartsName": "燃油滤芯",
+				  "PartPrice": "300.00",
+				  "Partstatus": "F"
+				}
+			],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "5",
+			"PackageID": "SRP005",
+			"PackageName": "雨刮片",
+			"AccountID": "C0000001",
+			"RepairType": "保养",
+			"RepairTypeCode": "MA",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "0000715",
+					"LaborAmount": "3.00",
+					"LaborDescription": "更换雨刮片",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "120.00",
+					"LaborStatus": "F"
+				},
+				{
+					"LaborCode": "0000105",
+					"LaborAmount": "2.00",
+					"LaborDescription": "保养标准范围",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [
+				{
+				  "PartsAmount": "1.00",
+				  "PartsCode": "11430110104",
+				  "PartsName": "燃油滤芯",
+				  "PartPrice": "300.00",
+				  "Partstatus": "F"
+				}
+			],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "6",
+			"PackageID": "SRP006",
+			"PackageName": "制动液",
+			"AccountID": "C0000001",
+			"RepairType": "保养",
+			"RepairTypeCode": "MA",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "0000618",
+					"LaborAmount": "4.00",
+					"LaborDescription": "制动液保养",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "160.00",
+					"LaborStatus": "F"
+				},
+				{
+					"LaborCode": "0000105",
+					"LaborAmount": "2.00",
+					"LaborDescription": "保养标准范围",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [
+				{
+				  "PartsAmount": "1.00",
+				  "PartsCode": "11430110105",
+				  "PartsName": "制动液",
+				  "PartPrice": "300.00",
+				  "Partstatus": "F"
+				}
+			],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "7",
+			"PackageID": "SRP007",
+			"PackageName": "前部制动片",
+			"AccountID": "C0000001",
+			"RepairType": "保养",
+			"RepairTypeCode": "MA",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "0000612",
+					"LaborAmount": "7.00",
+					"LaborDescription": "前部制动片",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "280.00",
+					"LaborStatus": "F"
+				},
+				{
+					"LaborCode": "0000105",
+					"LaborAmount": "2.00",
+					"LaborDescription": "保养标准范围",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [
+				{
+				  "PartsAmount": "1.00",
+				  "PartsCode": "34116769951",
+				  "PartsName": "修理套件",
+				  "PartPrice": "872.00",
+				  "Partstatus": "F"
+				}
+			],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "8",
+			"PackageID": "SRP008",
+			"PackageName": "前部制动盘/片",
+			"AccountID": "C0000001",
+			"RepairType": "保养",
+			"RepairTypeCode": "MA",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "0000612",
+					"LaborAmount": "7.00",
+					"LaborDescription": "前部制动片",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "280.00",
+					"LaborStatus": "F"
+				},
+				{
+					"LaborCode": "0000105",
+					"LaborAmount": "2.00",
+					"LaborDescription": "保养标准范围",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [
+				{
+				  "PartsAmount": "1.00",
+				  "PartsCode": "34116769951",
+				  "PartsName": "修理套件",
+				  "PartPrice": "872.00",
+				  "Partstatus": "F"
+				}
+			],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "9",
+			"PackageID": "SRP009",
+			"PackageName": "后部制动器",
+			"AccountID": "C0000001",
+			"RepairType": "保养",
+			"RepairTypeCode": "MA",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "0000614",
+					"LaborAmount": "11.00",
+					"LaborDescription": "后部制动片保养",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "440.00",
+					"LaborStatus": "F"
+				},
+				{
+					"LaborCode": "0000105",
+					"LaborAmount": "2.00",
+					"LaborDescription": "保养标准范围",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [
+				{
+				  "PartsAmount": "1.00",
+				  "PartsCode": "34116769951",
+				  "PartsName": "修理套件",
+				  "PartPrice": "872.00",
+				  "Partstatus": "F"
+				}
+			],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "10",
+			"PackageID": "SRP010",
+			"PackageName": "后部制动盘/片",
+			"AccountID": "C0000001",
+			"RepairType": "保养",
+			"RepairTypeCode": "MA",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "0000614",
+					"LaborAmount": "11.00",
+					"LaborDescription": "后部制动片保养",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "440.00",
+					"LaborStatus": "F"
+				},
+				{
+					"LaborCode": "0000105",
+					"LaborAmount": "2.00",
+					"LaborDescription": "保养标准范围",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [
+				{
+				  "PartsAmount": "1.00",
+				  "PartsCode": "13717532754",
+				  "PartsName": "空气滤清器滤芯",
+				  "PartPrice": "200.00",
+				  "Partstatus": "F"
+				}
+			],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "11",
+			"PackageID": "SRP011",
+			"PackageName": "火花塞保养",
+			"AccountID": "C0000001",
+			"RepairType": "保养",
+			"RepairTypeCode": "MA",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "0000622",
+					"LaborAmount": "5.00",
+					"LaborDescription": "火花塞保养",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "200.00",
+					"LaborStatus": "F"
+				},
+				{
+					"LaborCode": "0000105",
+					"LaborAmount": "2.00",
+					"LaborDescription": "保养标准范围",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [
+				{
+				  "PartsAmount": "4.00",
+				  "PartsCode": "12122158252",
+				  "PartsName": "大功率火花塞",
+				  "PartPrice": "200.00",
+				  "Partstatus": "F"
+				}
+			],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "12",
+			"PackageID": "SRP012",
+			"PackageName": "车辆检查",
+			"AccountID": "C0000001",
+			"RepairType": "保养",
+			"RepairTypeCode": "MA",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "0000009",
+					"LaborAmount": "7.00",
+					"LaborDescription": "车辆检查",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "280.00",
+					"LaborStatus": "F"
+				},
+				{
+					"LaborCode": "0000105",
+					"LaborAmount": "2.00",
+					"LaborDescription": "保养标准范围",
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "13",
+			"PackageID": "AAA",
+			"PackageName": "发动机报警灯亮",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"Package Price": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "14",
+			"PackageID": "AAB",
+			"PackageName": "发动机无法起动",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "15",
+			"PackageID": "AAC",
+			"PackageName": "发动机起动延迟",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
 		},
 
 		{
-			"Magic": "2",
+			"Magic": "16",
+			"PackageID": "AAD",
+			"PackageName": "发动机熄火",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "17",
+			"PackageID": "AAE",
+			"PackageName": "发动机抖动",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "18",
+			"PackageID": "AAF",
+			"PackageName": "发动机异响",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "19",
+			"PackageID": "ABA",
+			"PackageName": "燃油消耗高",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "20",
+			"PackageID": "ABB",
+			"PackageName": "车内/外燃油味",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "21",
+			"PackageID": "ACB",
+			"PackageName": "水箱漏水",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "22",
+			"PackageID": "ADA",
+			"PackageName": "机油消耗高",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "23",
+			"PackageID": "ADB",
+			"PackageName": "机油报警",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "24",
+			"PackageID": "ADC",
+			"PackageName": "机油泄漏",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "A",
+			"Laborinfo":[
+				{
+					"LaborCode": "1100019",
+					"LaborAmount": "4.00",
+					"LaborDescription": "发动机检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "25",
+			"PackageID": "BAB",
+			"PackageName": "变速箱异响",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "B",
+			"Laborinfo":[
+				{
+					"LaborCode": "2400010",
+					"LaborAmount": "5.00",
+					"LaborDescription": "变速箱检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "300.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "26",
+			"PackageID": "BAC",
+			"PackageName": "变速箱漏油",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "B",
+			"Laborinfo":[
+				{
+					"LaborCode": "2400010",
+					"LaborAmount": "5.00",
+					"LaborDescription": "变速箱检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "300.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+
+		{
+			"Magic": "27",
+			"PackageID": "BAD",
+			"PackageName": "换挡不平顺",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "B",
+			"Laborinfo":[
+				{
+					"LaborCode": "2400010",
+					"LaborAmount": "5.00",
+					"LaborDescription": "变速箱检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "300.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "28",
+			"PackageID": "CAB",
+			"PackageName": "底盘异响",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "C",
+			"Laborinfo":[
+				{
+					"LaborCode": "3001001",
+					"LaborAmount": "10.00",
+					"LaborDescription": "底盘检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "600.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "29",
+			"PackageID": "CAC",
+			"PackageName": "车辆跑偏",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "C",
+			"Laborinfo":[
+				{
+					"LaborCode": "3001001",
+					"LaborAmount": "10.00",
+					"LaborDescription": "底盘检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "600.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "30",
+			"PackageID": "CAD",
+			"PackageName": "车身抖动",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "C",
+			"Laborinfo":[
+				{
+					"LaborCode": "3001001",
+					"LaborAmount": "10.00",
+					"LaborDescription": "底盘检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "600.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "31",
+			"PackageID": "CAE",
+			"PackageName": "四驱报警灯亮",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "C",
+			"Laborinfo":[
+				{
+					"LaborCode": "3001001",
+					"LaborAmount": "10.00",
+					"LaborDescription": "底盘检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "600.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+
+		{
+			"Magic": "32",
+			"PackageID": "CAF",
+			"PackageName": "颠簸路面异响",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "C",
+			"Laborinfo":[
+				{
+					"LaborCode": "3001001",
+					"LaborAmount": "10.00",
+					"LaborDescription": "底盘检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "600.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "33",
+			"PackageID": "DAA",
+			"PackageName": "座椅调节故障",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "D",
+			"Laborinfo":[
+				{
+					"LaborCode": "4010018",
+					"LaborAmount": "4.00",
+					"LaborDescription": "座椅检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+
+		{
+			"Magic": "34",
+			"PackageID": "DAB",
+			"PackageName": "座椅加热故障",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "D",
+			"Laborinfo":[
+				{
+					"LaborCode": "4010018",
+					"LaborAmount": "4.00",
+					"LaborDescription": "座椅检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "35",
+			"PackageID": "DAD",
+			"PackageName": "座椅头枕故障",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "D",
+			"Laborinfo":[
+				{
+					"LaborCode": "4010018",
+					"LaborAmount": "4.00",
+					"LaborDescription": "座椅检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "36",
+			"PackageID": "DAE",
+			"PackageName": "座椅皮革",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "D",
+			"Laborinfo":[
+				{
+					"LaborCode": "4010018",
+					"LaborAmount": "4.00",
+					"LaborDescription": "座椅检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "37",
+			"PackageID": "FAD",
+			"PackageName": "全车报警",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "F",
+			"Laborinfo":[
+				{
+					"LaborCode": "5000101",
+					"LaborAmount": "4.00",
+					"LaborDescription": "车辆电子检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "38",
+			"PackageID": "FAE",
+			"PackageName": "喇叭功能故障",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "F",
+			"Laborinfo":[
+				{
+					"LaborCode": "5000101",
+					"LaborAmount": "4.00",
+					"LaborDescription": "车辆电子检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "39",
+			"PackageID": "FAF",
+			"PackageName": "雨刮器故障",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "F",
+			"Laborinfo":[
+				{
+					"LaborCode": "5000101",
+					"LaborAmount": "4.00",
+					"LaborDescription": "车辆电子检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "40",
+			"PackageID": "FCA",
+			"PackageName": "空调功能故障",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "F",
+			"Laborinfo":[
+				{
+					"LaborCode": "5002001",
+					"LaborAmount": "2.00",
+					"LaborDescription": "空调检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "120.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "41",
+			"PackageID": "FCB",
+			"PackageName": "空调噪音",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "F",
+			"Laborinfo":[
+				{
+					"LaborCode": "5002001",
+					"LaborAmount": "4.00",
+					"LaborDescription": "空调检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+
+		{
+			"Magic": "42",
+			"PackageID": "FCC",
+			"PackageName": "空调异味",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "F",
+			"Laborinfo":[
+				{
+					"LaborCode": "5002001",
+					"LaborAmount": "4.00",
+					"LaborDescription": "空调检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "240.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "43",
+			"PackageID": "NCC",
+			"PackageName": "故障检查",
+			"AccountID": "C0000001",
+			"RepairType": "查修",
+			"RepairTypeCode": "CHE",
+			"CHECKType": "F",
+			"Laborinfo":[
+				{
+					"LaborCode": "0000006",
+					"LaborAmount": "0",
+					"LaborDescription": "车辆检查",
+					"LaborUnitPrice": "60.00",
+					"LaborPrice": "0",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+		{
+			"Magic": "44",
 			"PackageID": "SUMMER01",
 			"PackageName": "夏日优惠：更换雨刮片",
 			"AccountID": "C0000001",
-			"RepairType": "一般维修",
-			"RepairTypeCode": "NOR",
+			"RepairType": "活动",
+			"RepairTypeCode": "CAM",
+			"CHECKType": "",
 			"Laborinfo":[
 				{
 					"LaborCode": "6161541",
+					"LaborAmount": "1",
 					"LaborDescription": "更换两个雨刷片",
-					"LaborAmount": "1.00",
-					"LaborPrice": "50.00"
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "40",
+					"LaborStatus": "F"
 				}
 			],
-			"PartInfo":[
-				{
-					"PartsCode": "61610427668",
-					"PartsName": "雨刮片组件",
-					"PartsAmount": "1.00",
-					"PartPrice": "210.00"
-				},
-				{
-					"PartsCode": "83210398511",
-					"PartsName": "发动机机油 5W30",
-					"PartsAmount": "4.25",
-					"PartPrice": "200.0"
-				}
-			],
+			"PartInfo": [{
+				"PartsAmount": "1.00",
+				"PartsCode": "61610427668",
+				"PartsName": "雨刮片组件",
+				"PartPrice": "300.00",
+				"Partstatus": "F"
+			}],
 			"PackagePrice": "",
-			"Campaign1": "V201908",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E60",
-			"Engine": "D60",
-			"Process_level_for_Paint": "N",
-			"Shortname": "更换雨刮器",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
+			"Model": "",
+			"Engine": ""
 		},
-
 		{
-			"Magic": "3",
+			"Magic": "45",
 			"PackageID": "PDI01",
 			"PackageName": "PDI检查",
 			"AccountID": "W0000011",
 			"RepairType": "PDI",
 			"RepairTypeCode": "PDI",
+			"CHECKType": "",
 			"Laborinfo":[
 				{
 					"LaborCode": "0000741",
+					"LaborAmount": "1",
 					"LaborDescription": "弹簧锁止器移交检验",
-					"LaborAmount": "1.00",
-					"LaborPrice": "30.00"
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "40",
+					"LaborStatus": "F"
 				},
 				{
 					"LaborCode": "0000556",
+					"LaborAmount": "2",
 					"LaborDescription": "进行车辆测试",
-					"LaborAmount": "2.00",
-					"LaborPrice": "80.00"
-				},
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "免费移交检查",
-					"LaborAmount": "8.00",
-					"LaborPrice": "240.00"
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "80",
+					"LaborStatus": "F"
 				}
 			],
-			"PartInfo":[],
+			"PartInfo": [],
 			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E46",
-			"Engine": "N46",
-			"Process_level_for_Paint": "N",
-			"Shortname": "PDI检查",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-
-		{
-			"Magic": "4",
-			"PackageID": "SRP002",
-			"PackageName": "前部制动器保养",
-			"AccountID": "C0000001",
-			"RepairType": "保养",
-			"RepairTypeCode": "MA",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000612",
-					"LaborDescription": "前部制动器保养",
-					"LaborAmount": "7.00",
-					"LaborPrice": "204.00"
-				}
-			],
-			"PartInfo":[
-				{
-					"PartsCode": "34116769951",
-					"PartsName": "修理套件",
-					"PartsAmount": "1.00",
-					"PartPrice": "872.00"
-				}
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E46",
-			"Engine": "N46",
-			"Process_level_for_Paint": "N",
-			"Shortname": "前部制动器保养",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
+			"Model": "",
+			"Engine": ""
 		},
 		{
-			"Magic": "5",
-			"PackageID": "SRP003",
-			"PackageName": "微尘滤清器保养",
-			"AccountID": "C0000001",
-			"RepairType": "保养",
-			"RepairTypeCode": "MA",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000616",
-					"LaborDescription": "微尘滤清器保养",
-					"LaborAmount": "1.00",
-					"LaborPrice": "34.00"
-				}
-			],
-			"PartInfo":[
-				{
-					"PartsCode": "64319142115",
-					"PartsName": "微尘滤清器",
-					"PartsAmount": "",
-					"PartPrice": ""
-				}
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E46",
-			"Engine": "N46",
-			"Process_level_for_Paint": "N",
-			"Shortname": "微尘滤清器保养",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "6",
-			"PackageID": "SRP004",
-			"PackageName": "进气消音器保养",
-			"AccountID": "C0000001",
-			"RepairType": "保养",
-			"RepairTypeCode": "MA",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000602",
-					"LaborDescription": "进气消音器保养",
-					"LaborAmount": "4.00",
-					"LaborPrice": "160.00"
-				}
-			],
-			"PartInfo":[
-				{
-					"PartsCode": "13717532754",
-					"PartsName": "空气滤清器滤芯",
-					"PartsAmount": "1.00",
-					"PartPrice": "200.00"
-				}
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E46",
-			"Engine": "N46",
-			"Process_level_for_Paint": "N",
-			"Shortname": "进气消音器保养",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "7",
-			"PackageID": "SRP005",
-			"PackageName": "后部制动器保养",
-			"AccountID": "C0000001",
-			"RepairType": "保养",
-			"RepairTypeCode": "MA",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000614",
-					"LaborDescription": "后部制动器保养",
-					"LaborAmount": "11.00",
-					"LaborPrice": "440.00"
-				}
-			],
-			"PartInfo":[],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E46",
-			"Engine": "N46",
-			"Process_level_for_Paint": "N",
-			"Shortname": "后部制动器保养",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "8",
-			"PackageID": "SRP006",
-			"PackageName": "制动液保养",
-			"AccountID": "C0000001",
-			"RepairType": "保养",
-			"RepairTypeCode": "MA",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000618",
-					"LaborDescription": "制动液保养",
-					"LaborAmount": "4.00",
-					"LaborPrice": "160.00"
-				}
-			],
-			"PartInfo":[],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E46",
-			"Engine": "N46",
-			"Process_level_for_Paint": "N",
-			"Shortname": "制动液保养",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "9",
-			"PackageID": "SRP007",
-			"PackageName": "火花塞保养",
-			"AccountID": "C0000001",
-			"RepairType": "保养",
-			"RepairTypeCode": "MA",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000622",
-					"LaborDescription": "火花塞保养",
-					"LaborAmount": "5.00",
-					"LaborPrice": "250.00"
-				}
-			],
-			"PartInfo":[
-				{
-					"PartsCode": "12122158252",
-					"PartsName": "大功率火花塞",
-					"PartsAmount": "4.00",
-					"PartPrice": "480.00"
-				}
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E46",
-			"Engine": "N46",
-			"Process_level_for_Paint": "N",
-			"Shortname": "火花塞保养",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "10",
-			"PackageID": "SRP008",
-			"PackageName": "更换冷却液",
-			"AccountID": "C0000001",
-			"RepairType": "保养",
-			"RepairTypeCode": "MA",
-			"Laborinfo":[
-				{
-					"LaborCode": "0012625",
-					"LaborDescription": "更换冷却液",
-					"LaborAmount": "1.00",
-					"LaborPrice": "50.00"
-				}
-			],
-			"PartInfo":[
-				
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E46",
-			"Engine": "N46",
-			"Process_level_for_Paint": "N",
-			"Shortname": "更换冷却液",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "11",
+			"Magic": "46",
 			"PackageID": "T201901",
 			"PackageName": "车载电脑升级",
 			"AccountID": "W0000011",
 			"RepairType": "活动",
 			"RepairTypeCode": "CAM",
+			"CHECKType": "",
 			"Laborinfo":[
 				{
 					"LaborCode": "6614890",
+					"LaborAmount": "10",
 					"LaborDescription": "车载电脑升级",
-					"LaborAmount": "10.00",
-					"LaborPrice": "500.00"
+					"LaborUnitPrice": "40.00",
+					"LaborPrice": "400",
+					"LaborStatus": "F"
 				}
 			],
-			"PartInfo":[],
+			"PartInfo": [],
 			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E46",
-			"Engine": "N46",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "12",
-			"PackageID": "CHE01",
-			"PackageName": "发动机问题",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-				
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
 			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
+			"Engine": ""
 		},
 		{
-			"Magic": "13",
-			"PackageID": "CHE02",
-			"PackageName": "仪表盘问题",
+			"Magic": "47",
+			"PackageID": "NEW1",
+			"PackageName": "太阳膜",
 			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-				
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "14",
-			"PackageID": "CHE03",
-			"PackageName": "车身抖动",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "15",
-			"PackageID": "CHE04",
-			"PackageName": "刹车问题",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "16",
-			"PackageID": "CHE05",
-			"PackageName": "驾驶问题",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "17",
-			"PackageID": "CHE06",
-			"PackageName": "车内噪音大",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-				
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "18",
-			"PackageID": "CHE07",
-			"PackageName": "胎噪大",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-				
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "19",
-			"PackageID": "CHE08",
-			"PackageName": "座椅问题",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-				
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "20",
-			"PackageID": "CHE09",
-			"PackageName": "空调问题",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-				
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "21",
-			"PackageID": "CHE10",
-			"PackageName": "车内娱乐系统问题",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-				
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "22",
-			"PackageID": "CHE11",
-			"PackageName": "外观问题",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-				
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "23",
-			"PackageID": "CHE12",
-			"PackageName": "内饰问题",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-				
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "24",
-			"PackageID": "CHE13",
-			"PackageName": "互联驾驶问题",
-			"AccountID": "C0000001",
-			"RepairType": "查修",
-			"RepairTypeCode": "CHE",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000009",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "4.00",
-					"LaborPrice": "200.00"
-				}
-			],
-			"PartInfo":[
-				
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "25",
-			"PackageID": "SRP001",
-			"PackageName": "发动机油保养",
-			"AccountID": "C0000001",
-			"RepairType": "首保",
-			"RepairTypeCode": "FMA",
-			"Laborinfo":[
-				{
-					"LaborCode": "0000610",
-					"LaborDescription": "相关检查",
-					"LaborAmount": "3.00",
-					"LaborPrice": "130.00"
-				},
-				{
-					"LaborCode": "0000105",
-					"LaborDescription": "保养标准范围",
-					"LaborAmount": "2.00",
-					"LaborPrice": "100.00"
-				}
-			],
-			"PartInfo":[
-				{
-					"PartsCode": "11427508969",
-					"PartsName": "机油滤清器滤芯",
-					"PartsAmount": "1.00",
-					"PartPrice": "150.00"
-				},
-				{
-					"PartsCode": "83210398511",
-					"PartsName": "发动机机油 5W30",
-					"PartsAmount": "4.25",
-					"PartPrice": "200.00"
-				}
-			],
-			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
-			"Model": "E46",
-			"Engine": "N46",
-			"Process_level_for_Paint": "N",
-			"Shortname": "发动机油保养",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
-		},
-		{
-			"Magic": "26",
-			"PackageID": "OTHO1",
-			"PackageName": "加油费",
-			"AccountID": "C0000001",
-			"RepairType": "杂费",
+			"RepairType": "加装",
 			"RepairTypeCode": "OTH",
+			"CHECKType": "",
 			"Laborinfo":[
 				{
-					"LaborCode": "1010101",
-					"LaborDescription": "加油费",
-					"LaborAmount": "1.00",
-					"LaborPrice": "200.00"
+					"LaborCode": "N000011",
+					"LaborAmount": "10",
+					"LaborDescription": "太阳膜",
+					"LaborUnitPrice": "10000.00",
+					"LaborPrice": "400",
+					"LaborStatus": "F"
 				}
 			],
-			"PartInfo":[
-			],
+			"PartInfo": [],
 			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
 			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
+			"Engine": ""
 		},
+
 		{
-			"Magic": "27",
-			"PackageID": "OTHO1",
-			"PackageName": "拖车费",
+			"Magic": "48",
+			"PackageID": "NEW2",
+			"PackageName": "导航",
 			"AccountID": "C0000001",
-			"RepairType": "杂费",
+			"RepairType": "加装",
 			"RepairTypeCode": "OTH",
+			"CHECKType": "",
 			"Laborinfo":[
 				{
-					"LaborCode": "1010102",
-					"LaborDescription": "拖车费",
-					"LaborAmount": "1.00",
-					"LaborPrice": "200.00"
+					"LaborCode": "N000012",
+					"LaborAmount": "1",
+					"LaborDescription": "太阳膜",
+					"LaborUnitPrice": "6000.00",
+					"LaborPrice": "6000.00",
+					"LaborStatus": "F"
 				}
 			],
-			"PartInfo":[
-			],
+			"PartInfo": [],
 			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
 			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
+			"Engine": ""
 		},
+
 		{
-			"Magic": "28",
-			"PackageID": "OTHO1",
-			"PackageName": "服务费",
+			"Magic": "49",
+			"PackageID": "NEW3",
+			"PackageName": "底盘封塑",
 			"AccountID": "C0000001",
-			"RepairType": "杂费",
+			"RepairType": "加装",
 			"RepairTypeCode": "OTH",
+			"CHECKType": "",
 			"Laborinfo":[
 				{
-					"LaborCode": "1010103",
-					"LaborDescription": "服务费",
-					"LaborAmount": "1.00",
-					"LaborPrice": "200.00"
+					"LaborCode": "N000013",
+					"LaborAmount": "1",
+					"LaborDescription": "底盘封塑",
+					"LaborUnitPrice": "3000.00",
+					"LaborPrice": "3000.00",
+					"LaborStatus": "F"
 				}
 			],
-			"PartInfo":[
-			],
+			"PartInfo": [],
 			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
 			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
+			"Engine": ""
 		},
+
 		{
-			"Magic": "29",
-			"PackageID": "OTHO1",
-			"PackageName": "服务费",
+			"Magic": "50",
+			"PackageID": "NEW4",
+			"PackageName": "音响",
 			"AccountID": "C0000001",
-			"RepairType": "杂费",
+			"RepairType": "加装",
 			"RepairTypeCode": "OTH",
+			"CHECKType": "",
 			"Laborinfo":[
 				{
-					"LaborCode": "1010104",
-					"LaborDescription": "洗车费",
-					"LaborAmount": "1.00",
-					"LaborPrice": "50.00"
+					"LaborCode": "N000014",
+					"LaborAmount": "1",
+					"LaborDescription": "音响",
+					"LaborUnitPrice": "20000.00",
+					"LaborPrice": "20000.00",
+					"LaborStatus": "F"
 				}
 			],
-			"PartInfo":[
-			],
+			"PartInfo": [],
 			"PackagePrice": "",
-			"Campaign1": "",
-			"Campaign2": "",
-			"Campaign3": "",
 			"Model": "",
-			"Engine": "",
-			"Process_level_for_Paint": "N",
-			"Shortname": "",
-			"UsedinWIP/1": "",
-			"UsedinWIP/3": "",
-			"UsedinWIP/12": ""
+			"Engine": ""
+		},
+
+		{
+			"Magic": "51",
+			"PackageID": "NEW5",
+			"PackageName": "倒车雷达",
+			"AccountID": "C0000001",
+			"RepairType": "加装",
+			"RepairTypeCode": "OTH",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "N000015",
+					"LaborAmount": "1",
+					"LaborDescription": "倒车雷达",
+					"LaborUnitPrice": "8000.00",
+					"LaborPrice": "8000.00",
+					"LaborStatus": "F"
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
+		},
+
+		{
+			"Magic": "52",
+			"PackageID": "TXTP",
+			"PackageName": "备注",
+			"AccountID": "C0000001",
+			"RepairType": "备注",
+			"RepairTypeCode": "TXT",
+			"CHECKType": "",
+			"Laborinfo":[
+				{
+					"LaborCode": "TXT",
+					"LaborAmount": "",
+					"LaborDescription": "",
+					"LaborUnitPrice": "",
+					"LaborPrice": "",
+					"LaborStatus": ""
+				}
+			],
+			"PartInfo": [],
+			"PackagePrice": "",
+			"Model": "",
+			"Engine": ""
 		}
 	]
 }
